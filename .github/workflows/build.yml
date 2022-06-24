@@ -6,6 +6,12 @@
 env:
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
+permissions:
+  contents: read
+  # these permissions are required for the action to work properly
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
