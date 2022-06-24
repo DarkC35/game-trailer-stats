@@ -1,6 +1,10 @@
 on:
   schedule:
     - cron: "0 0 * * *"
+
+env:
+  DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
 jobs:
   crawl:
     runs-on: ubuntu-latest

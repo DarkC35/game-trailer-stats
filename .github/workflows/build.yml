@@ -3,6 +3,9 @@
     branches:
       - main
 
+env:
+  DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
