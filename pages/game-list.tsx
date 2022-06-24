@@ -20,7 +20,7 @@ const GameListPage = ({ trailers }: Props) => {
             <Link href={'/'}>Back to Index</Link>
             {trailers.sort((a, b) => a.gameTitle.localeCompare(b.gameTitle)).map(trailer => (
                 <div key={`game-list-item-${trailer.id}`}>
-                    <h2 className='text-2xl'><Link href={`/trailer/{trailer.id}`}>{trailer.gameTitle}</Link></h2>
+                    <h2 className='text-2xl'><Link href={`/trailer/${trailer.id}`}>{trailer.gameTitle}</Link></h2>
                     {/* <p>Categories: {trailer.categories?.map(category => category.name).join(';')}</p> */}
                     <div className='flex flex-wrap'>
                         {trailer.categories?.map(category => {
