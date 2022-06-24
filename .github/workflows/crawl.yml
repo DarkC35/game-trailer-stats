@@ -1,0 +1,51 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    container: node:16.15.0
+    services:
+      postgres:
+        image: postgres:14.3
+        env:
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+          --name postgres
+        ports:
+          - 5432:5432
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Run pg_restore
+        uses: docker://postgres:14.3
+        with:
+          entrypoint: psql
+          args: -d postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }} -f ./data/data.sql
+      - name: Install dependencies
+        run: npm ci
+      - name: Prepare database
+        run: npm run prisma:migrate
+      - name: Run crawler
+        run: npm run crawl
+        env:
+          DATABASE_URL: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }}?schema=public
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - name: Run pg_dump
+        uses: docker://postgres:14.3
+        with:
+          entrypoint: pg_dump
+          args: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }} -E UTF8 -f ./data/data.sql
+      - name: Push new data
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "[crawl] update data"
+          git push

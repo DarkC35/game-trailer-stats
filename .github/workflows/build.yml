@@ -1,0 +1,48 @@
+﻿on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    container: node:16.15.0
+    services:
+      postgres:
+        image: postgres:14.3
+        env:
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+          --name postgres
+        ports:
+          - 5432:5432
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Run pg_restore
+        uses: docker://postgres:14.3
+        with:
+          entrypoint: psql
+          args: -d postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }} -f ./data/data.sql
+      - name: Install dependencies
+        run: npm ci
+      - name: Build pages
+        run: npm run build
+      - name: Export pages
+        run: npm run export
+      - name: Upload Pages artifact # https://github.com/actions/upload-pages-artifact/blob/main/action.yml
+        uses: actions/upload-pages-artifact@v0.1.0
+        with:
+          path: out/
+      - name: Deploy to GitHub Pages # https://github.com/actions/deploy-pages
+        id: deployment
+        uses: actions/deploy-pages@v1.0.5

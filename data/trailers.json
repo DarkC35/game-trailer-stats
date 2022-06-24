@@ -1,0 +1,670 @@
+[
+    {
+        "id": "fe16bc85-f506-44fd-8fa9-99bf919bacd9",
+        "gameTitle": "Stray",
+        "youtubeId": "u84hRUQlaio",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS4",
+            "PS5"
+        ],
+        "gameUrl": "https://stray.game/"
+    },
+    {
+        "id": "ccedb919-a463-4114-9a94-1e8491aa1db6",
+        "gameTitle": "Avatar: Frontiers of Pandora",
+        "youtubeId": "Axmg1E4HrVE",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ubisoft.com/en-us/game/avatar-frontiers-of-pandora"
+    },
+    {
+        "id": "db09701c-5b3d-425d-b1bf-742c02fe923e",
+        "gameTitle": "Pokemon Scarlet and Violet",
+        "youtubeId": "MAmueMsFR1o",
+        "categories": [
+            "Nintendo Exclusive",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://scarletviolet.pokemon.com"
+    },
+    {
+        "id": "c2d2ba8e-f6dd-407b-aa1e-24bab8888098",
+        "gameTitle": "Saints Row",
+        "youtubeId": "YgjzDJA1o1E",
+        "categories": [
+            "PC",
+            "Epic Games",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://saintsrow.com",
+        "releaseDate": "2022-08-23"
+    },
+    {
+        "id": "10e77c85-976b-43e9-bb95-65d5d8b92020",
+        "gameTitle": "Forspoken",
+        "youtubeId": "AdZUrXCqUck",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "Microsoft Store",
+            "PlayStation",
+            "PS5"
+        ],
+        "gameUrl": "https://forspoken.square-enix-games.com",
+        "releaseDate": "2022-10-11"
+    },
+    {
+        "id": "841da886-5f4b-4184-aaa8-89e638159ec6",
+        "gameTitle": "Marvel's Spider-Man 2",
+        "youtubeId": "qIQ3xNqkVC4",
+        "categories": [
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5"
+        ],
+        "gameUrl": "https://insomniac.games/game/marvels-spider-man-2"
+    },
+    {
+        "id": "81fd3b51-ca00-411e-adcd-1e3b77cbe91b",
+        "gameTitle": "Marvel's Wolverine",
+        "youtubeId": "Zcj9AzHv_l8",
+        "categories": [
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5"
+        ],
+        "gameUrl": "https://insomniac.games/game/marvels-wolverine"
+    },
+    {
+        "id": "13eb9117-d884-4b07-ae5b-0987b8208202",
+        "gameTitle": "God of War Ragnarök",
+        "youtubeId": "EE-4GvjKcfs",
+        "categories": [
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5",
+            "PS4"
+        ],
+        "gameUrl": "https://playstation.com/games/god-of-war-ragnarok"
+    },
+    {
+        "id": "74d3c228-3554-40a6-b5f8-944444ebc3ba",
+        "gameTitle": "Hogwarts Legacy",
+        "youtubeId": "BsC-Rl9GYy0",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://www.hogwartslegacy.com"
+    },
+    {
+        "id": "406d6f96-c05e-4303-a76d-d3a750c68372",
+        "gameTitle": "Gotham Knights",
+        "youtubeId": "IhVf_3TeTQE",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.gothamknightsgame.com",
+        "releaseDate": "2022-10-25"
+    },
+    {
+        "id": "884c5d2c-c5ee-4fa2-a516-4f42fb8c9905",
+        "gameTitle": "Fable",
+        "youtubeId": "oVkSZXPklQ4",
+        "categories": [
+            "PC",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.xbox.com/games/fable"
+    },
+    {
+        "id": "88a2afc6-3e15-402c-aadc-094c470c35ed",
+        "gameTitle": "Starfield",
+        "youtubeId": "pYqyVpCV-3c",
+        "categories": [
+            "PC",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://bethesda.net/game/starfield",
+        "releaseDate": "2022-11-11"
+    },
+    {
+        "id": "df652a57-7728-4e08-8f6d-a44dc2fa64bf",
+        "gameTitle": "Redfall",
+        "youtubeId": "3pWjcqXnP2g",
+        "categories": [
+            "PC",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://bethesda.net/game/redfall"
+    },
+    {
+        "id": "84683ea8-478f-48b8-8004-cece493fee98",
+        "gameTitle": "ARK II",
+        "youtubeId": "RG2aOpCQQSA",
+        "categories": [
+            "PC"
+        ],
+        "gameUrl": "http://www.studiowildcard.com/"
+    },
+    {
+        "id": "a96de528-48cb-4be2-8100-845ad8fdcb2b",
+        "gameTitle": "Sonic Frontiers",
+        "youtubeId": "RRkKZG1z9PY",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://asia.sega.com/SonicFrontiers/en/"
+    },
+    {
+        "id": "0563e9f0-cc42-43f2-9da0-3e9562d0ea71",
+        "gameTitle": "Marvel's Midnight Suns",
+        "youtubeId": "Ripgh8W2PMg",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://midnightsuns.2k.com"
+    },
+    {
+        "id": "a4e59c4a-c362-4721-8036-b612d42a3f17",
+        "gameTitle": "A Plague Tale: Requiem",
+        "youtubeId": "Y-Q5wHtguZI",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://www.asobostudio.com/games/plague-tale-requiem"
+    },
+    {
+        "id": "88deded7-0232-4819-9e39-2013dc7cc285",
+        "gameTitle": "The Outer Worlds 2",
+        "youtubeId": "AQt-NjR-a3k",
+        "categories": [
+            "PC",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://outerworlds2.obsidian.net/"
+    },
+    {
+        "id": "17d98a07-34f5-4b1e-979e-1ce356994c1f",
+        "gameTitle": "Final Fantasy XVI",
+        "youtubeId": "yr6PtdY0i7M",
+        "categories": [
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5"
+        ],
+        "gameUrl": "https://finalfantasyxvi.com/"
+    },
+    {
+        "id": "0505a84b-01d7-4716-a7b2-61b70f18c033",
+        "gameTitle": "Star Wars: Knights of the Old Republic Remake",
+        "youtubeId": "lL-RfE-ioJ8",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5"
+        ],
+        "gameUrl": "https://www.aspyr.com/starwars"
+    },
+    {
+        "id": "20d7e49e-782d-4c26-84da-77cacf63fcd6",
+        "gameTitle": "Horizon Call of the Mountain",
+        "youtubeId": "yPNn-jwAC9c",
+        "categories": [
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5"
+        ],
+        "gameUrl": "https://www.playstation.com/games/horizon-call-of-the-mountain/"
+    },
+    {
+        "id": "74dd785f-fa76-4251-9f7a-f63d6b37e37b",
+        "gameTitle": "Pragmata",
+        "youtubeId": "xoxCboik0Is",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://news.capcomusa.com/2020/06/11/announcing-pragmata-a-brand-new-game-from-capcom-launching-2022/"
+    },
+    {
+        "id": "e87d119d-6bd0-4a07-b2c4-ba2cf2516f9e",
+        "gameTitle": "Project Eve",
+        "youtubeId": "3X3JR3pG0I8",
+        "categories": [
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS5"
+        ],
+        "gameUrl": "http://eve.shiftup.co.kr"
+    },
+    {
+        "id": "f33dc980-fc6c-48c4-a82b-e3723441fa8b",
+        "gameTitle": "Skull and Bones",
+        "youtubeId": "_9YYYVG0YQI",
+        "categories": [
+            "PC"
+        ],
+        "gameUrl": "https://www.ubisoft.com/en-us/game/skull-and-bones"
+    },
+    {
+        "id": "b9c517d4-d6e9-429e-b86b-89383cdcedaa",
+        "gameTitle": "Overwatch 2",
+        "youtubeId": "dZl1yGUetjI",
+        "categories": [
+            "PC"
+        ],
+        "gameUrl": "https://overwatch2.playoverwatch.com"
+    },
+    {
+        "id": "f19186ab-e0ab-4e0d-bbd0-5157cd48a497",
+        "gameTitle": "F1® 22",
+        "youtubeId": "K5RLRoRWUds",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ea.com/games/f1/f1-22",
+        "releaseDate": "2022-07-01"
+    },
+    {
+        "id": "ec0eb006-91ad-4fe7-b7b7-a883136337e2",
+        "gameTitle": "Dead Space Remake",
+        "youtubeId": "l5WeBNfX-og",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ea.com/games/dead-space",
+        "releaseDate": "2023-01-27"
+    },
+    {
+        "id": "e703f552-72fb-432a-af06-7844bdf34949",
+        "gameTitle": "STAR WARS Jedi: Survivor™",
+        "youtubeId": "4HLDaBGdnLc",
+        "categories": [
+            "PC"
+        ],
+        "gameUrl": "https://www.starwars.com/games-apps/star-wars-jedi-survivor"
+    },
+    {
+        "id": "7b58eba6-3a0c-4034-9bf2-b7016ed5338f",
+        "gameTitle": "Star Wars Eclipse™",
+        "youtubeId": "4cJpiOPKH14",
+        "categories": [
+            "PC"
+        ],
+        "gameUrl": "https://www.starwarseclipse.com/"
+    },
+    {
+        "id": "d87f51bd-042d-4278-997f-b9f45f28a0bf",
+        "gameTitle": "Warhammer 40,000: Darktide",
+        "youtubeId": "e-UifdRoC8I",
+        "categories": [
+            "PC",
+            "Steam"
+        ],
+        "gameUrl": "https://www.playdarktide.com/",
+        "releaseDate": "2022-09-13"
+    },
+    {
+        "id": "3e379e98-6601-4435-ab23-dcd434560c22",
+        "gameTitle": "Warhammer 40,000: SPACE MARINE 2",
+        "youtubeId": "TgxVQRTXtz0",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.focus-entmt.com/en/games/warhammer-40000-space-marine-2"
+    },
+    {
+        "id": "1c5e8059-55e2-4fba-b4d1-102f910c8bb2",
+        "gameTitle": "Mario Strikers: Battle League Football",
+        "youtubeId": "cLAzzYz92r4",
+        "categories": [
+            "Nintendo Exclusive",
+            "Nintendo Switch"
+        ],
+        "releaseDate": "2022-06-10",
+        "gameUrl": "https://www.nintendo.com/store/products/mario-strikers-battle-league-switch/"
+    },
+    {
+        "id": "ce03228a-e0fb-4bf4-be33-035373d49ed0",
+        "gameTitle": "Splatoon 3",
+        "youtubeId": "GUYDXVDLmns",
+        "categories": [
+            "Nintendo Exclusive",
+            "Nintendo Switch"
+        ],
+        "releaseDate": "2022-09-09",
+        "gameUrl": "https://www.nintendo.com/store/products/splatoon-3-switch/"
+    },
+    {
+        "id": "d57d9e2d-c7ab-4ab1-8d59-66d3d8509a8b",
+        "gameTitle": "Mario + Rabbids Sparks of Hope",
+        "youtubeId": "VHIuHMv3t88",
+        "categories": [
+            "Nintendo Exclusive",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://www.ubisoft.com/en-us/game/mario-rabbids/sparks-of-hope"
+    },
+    {
+        "id": "bfb21ce3-2d6d-4bae-9964-6764a2f13372",
+        "gameTitle": "Suicide Squad: Kill the Justice League",
+        "youtubeId": "2EVFYstVuVk",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.suicidesquadgame.com"
+    },
+    {
+        "id": "6a77c550-9a4f-409a-8865-6105e2b59379",
+        "gameTitle": "Slime Rancher 2",
+        "youtubeId": "ehh3m59vbA0",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "http://slimerancher.com/"
+    },
+    {
+        "id": "c764609e-f0bf-4933-8ddf-6e8e3ddeefc8",
+        "gameTitle": "Madden NFL 23",
+        "youtubeId": "Qv6G_w8RUOo",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ea.com/games/madden-nfl/madden-nfl-23"
+    },
+    {
+        "id": "d53f819c-955a-4ec6-8a14-8b20b3b7d159",
+        "gameTitle": "Avowed",
+        "youtubeId": "YS8n-pZQWWc",
+        "categories": [
+            "PC",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://avowed.obsidian.net/"
+    },
+    {
+        "id": "16bf2fec-627c-4a47-9c0e-06ded47b4d60",
+        "gameTitle": "Perfect Dark",
+        "youtubeId": "S--lFTxAVs8",
+        "categories": [
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.xbox.com/games/perfect-dark"
+    },
+    {
+        "id": "4d02491e-28dc-458e-a012-c76d5a15e496",
+        "gameTitle": "Hollow Knight: Silksong",
+        "youtubeId": "yQxwbZsL14Y",
+        "categories": [
+            "PC",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://www.hollowknightsilksong.com/"
+    },
+    {
+        "id": "ade20fd1-6743-4000-8140-9fe054fc464b",
+        "gameTitle": "Vampire: The Masquerade - Bloodlines 2",
+        "youtubeId": "SYvWfDxhm_s",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.bloodlines2.com/"
+    },
+    {
+        "id": "dc865347-8375-43c9-ba67-1bb999f287e8",
+        "gameTitle": "Victoria 3",
+        "youtubeId": "siZXs4d5Gqg",
+        "categories": [
+            "PC"
+        ],
+        "gameUrl": "https://www.victoria3game.com"
+    },
+    {
+        "id": "5a6c02a0-8d65-4efb-a3f1-a0bc25c3a9af",
+        "gameTitle": "Resident Evil 4 Remake",
+        "youtubeId": "rcFarJACzx0",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.residentevil.com/re4/",
+        "releaseDate": "2023-03-24"
+    },
+    {
+        "id": "1d5f49b8-a20f-4152-970e-3bfb15afa7e7",
+        "gameTitle": "Street Fighter 6",
+        "youtubeId": "GZud-p0QRvA",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.streetfighter.com/6"
+    },
+    {
+        "id": "9eab2380-df01-44cf-83a8-dab86a6be4da",
+        "gameTitle": "The Callisto Protocol",
+        "youtubeId": "WnVhgyLbC8A",
+        "categories": [
+            "PlayStation",
+            "PS4",
+            "PS5"
+        ],
+        "gameUrl": "https://www.callistothegame.com"
+    },
+    {
+        "id": "46de8926-9640-4d42-9f40-3088a34b3fd1",
+        "gameTitle": "Tom Clancy's Ghost Recon® Frontline",
+        "youtubeId": "7NewkthNMDE",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ubisoft.com/en-us/game/ghost-recon/frontline"
+    },
+    {
+        "id": "4762c5df-c703-4b70-b83e-1000114da1f8",
+        "gameTitle": "Eternights",
+        "youtubeId": "YkN-2gUUmc8",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PlayStation Exclusive",
+            "PS4",
+            "PS5"
+        ],
+        "gameUrl": "https://www.studiosai.dev/eternights"
+    },
+    {
+        "id": "cc479880-7eac-417f-aa20-2bdb51beba31",
+        "gameTitle": "Call of Duty: Modern Warfare II",
+        "youtubeId": "r72GP1PIZa0",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "releaseDate": "2022-10-28",
+        "gameUrl": "https://www.callofduty.com/modernwarfare2"
+    },
+    {
+        "id": "b5a112b7-b42b-4e6c-8450-0c5053e7c7a0",
+        "gameTitle": "Final Fantasy VII - REBIRTH",
+        "youtubeId": "H_4CkyOmuuU",
+        "categories": [
+            "PlayStation",
+            "PS5",
+            "PlayStation Exclusive"
+        ],
+        "gameUrl": "https://www.square-enix-games.com/news/final-fantasy-vii-rebirth"
+    },
+    {
+        "id": "02978247-aa5e-4021-9e97-12d1b07a24cc",
+        "gameTitle": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+        "youtubeId": "RjXBCaZexK4",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "gameUrl": ""
+    }
+]
