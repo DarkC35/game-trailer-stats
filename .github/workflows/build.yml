@@ -42,6 +42,7 @@ jobs:
         run: npm run build
       - name: Export pages
         run: npm run export
+      - run: ls -la
       - name: Upload Pages artifact # https://github.com/actions/upload-pages-artifact/blob/main/action.yml
         uses: actions/upload-pages-artifact@v0.1.0
         with:
