@@ -27,7 +27,7 @@ jobs:
         uses: docker://postgres:14.3
         with:
           entrypoint: psql
-          args: -d postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }} -f ./data/data.sql
+          args: -d postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/${{ secrets.POSTGRES_DB }} -f ./data/data.sql
       - name: Install dependencies
         run: npm ci
       - name: Prepare database
@@ -35,13 +35,13 @@ jobs:
       - name: Run crawler
         run: npm run crawl
         env:
-          DATABASE_URL: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }}?schema=public
+          DATABASE_URL: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/${{ secrets.POSTGRES_DB }}?schema=public
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - name: Run pg_dump
         uses: docker://postgres:14.3
         with:
           entrypoint: pg_dump
-          args: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/${{ secrets.POSTGRES_DB }} -E UTF8 -f ./data/data.sql
+          args: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/${{ secrets.POSTGRES_DB }} -E UTF8 -f ./data/data.sql
       - name: Push new data
         run: |
           git config user.name github-actions
