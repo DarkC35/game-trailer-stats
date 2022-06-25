@@ -1,13 +1,12 @@
-﻿on:
+﻿name: Build
+
+on:
   push:
     branches:
       - main
   workflow_run:
-    workflows: [crawl]
+    workflows: [Crawl]
     types: [completed]
-
-env:
-  DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
 permissions:
   contents: read
@@ -52,6 +51,8 @@ jobs:
         run: npm ci
       - name: Build pages
         run: npm run build
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
       - name: Export pages
         run: npm run export
       - name: Upload Pages artifact # https://github.com/actions/upload-pages-artifact/blob/main/action.yml

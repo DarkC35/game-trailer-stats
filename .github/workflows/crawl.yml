@@ -1,3 +1,5 @@
+name: Crawl
+
 on:
   schedule:
     - cron: "0 0 * * *"
