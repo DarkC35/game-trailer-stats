@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   deploy:
-    if: ${{ github.event.push || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
