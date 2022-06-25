@@ -2,6 +2,9 @@
   push:
     branches:
       - main
+  workflow_run:
+    workflows: [crawl]
+    types: [completed]
 
 env:
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
@@ -14,6 +17,7 @@ permissions:
 
 jobs:
   deploy:
+    if: ${{ github.event.push || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
