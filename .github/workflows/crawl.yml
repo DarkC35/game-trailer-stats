@@ -36,6 +36,8 @@ jobs:
         run: npm ci
       - name: Prepare database
         run: npm run prisma:migrate
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
       - name: Run crawler
         run: npm run crawl
         env:
