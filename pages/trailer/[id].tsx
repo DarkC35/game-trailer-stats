@@ -41,11 +41,13 @@ const TrailerPage = ({ trailer }: Props) => {
                     </li>
                 )}
             </ul> */}
+            <div className='flex flex-wrap'>
             {trailer?.categories.map(category =>
                 <CategoryBadge key={`category-list-${category.slug}`} href={`/category/${category.slug}`} color={mapCategoryToColor(category.name)}>
                     {category.name}
                 </CategoryBadge>
             )}
+            </div>
             <h2 className='text-2xl'>Views</h2>
             <TrailersChart trailers={trailer ? [trailer] : []} accessorField="viewCount" xLabel="Date" yLabel="Views" isSingleTrailer />
             <h2 className='text-2xl'>Likes</h2>
