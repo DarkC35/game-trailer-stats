@@ -1,9 +1,7 @@
 on:
   schedule:
     - cron: "0 0 * * *"
-
-env:
-  DATABASE_URL: ${{ secrets.DATABASE_URL }}
+  workflow_dispatch:
 
 jobs:
   crawl:
@@ -41,7 +39,7 @@ jobs:
       - name: Run crawler
         run: npm run crawl
         env:
-          DATABASE_URL: postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/${{ secrets.POSTGRES_DB }}?schema=public
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - name: Run pg_dump
         uses: docker://postgres:14.3
