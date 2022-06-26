@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@googleapis/youtube": "^4.2.0",
-    "@prisma/client": "^3.14.0",
+    "@prisma/client": "^3.15.2",
     "@visx/axis": "^2.10.0",
     "@visx/event": "^2.6.0",
     "@visx/group": "^2.10.0",
