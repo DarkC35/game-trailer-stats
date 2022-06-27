@@ -40,6 +40,7 @@ const Home = ({ categories, top10 }: Props) => {
           <div className='flex flex-row justify-center'>
             <Link href='/game-list'><a className='focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900'>Game List</a></Link>
             <Link href='/console-war'><a className='focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900'>Console War</a></Link>
+            <Link href='/compare'><a className='focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900'>Compare</a></Link>
           </div>
         </div>
 
