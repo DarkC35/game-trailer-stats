@@ -42,18 +42,18 @@ const TrailerPage = ({ trailer }: Props) => {
                 )}
             </ul> */}
             <div className='flex flex-wrap'>
-            {trailer?.categories.map(category =>
-                <CategoryBadge key={`category-list-${category.slug}`} href={`/category/${category.slug}`} color={mapCategoryToColor(category.name)}>
-                    {category.name}
-                </CategoryBadge>
-            )}
+                {trailer?.categories.map(category =>
+                    <CategoryBadge key={`category-list-${category.slug}`} href={`/category/${category.slug}`} color={mapCategoryToColor(category.name)}>
+                        {category.name}
+                    </CategoryBadge>
+                )}
             </div>
             <h2 className='text-2xl'>Views</h2>
             <TrailersChart trailers={trailer ? [trailer] : []} accessorField="viewCount" xLabel="Date" yLabel="Views" isSingleTrailer />
             <h2 className='text-2xl'>Likes</h2>
-            <TrailersChart trailers={trailer ? [trailer] : []} accessorField="likeCount" xLabel="Date" yLabel="Views" isSingleTrailer />
+            <TrailersChart trailers={trailer ? [trailer] : []} accessorField="likeCount" xLabel="Date" yLabel="Likes" isSingleTrailer />
             <h2 className='text-2xl'>Comments</h2>
-            <TrailersChart trailers={trailer ? [trailer] : []} accessorField="commentCount" xLabel="Date" yLabel="Views" isSingleTrailer />
+            <TrailersChart trailers={trailer ? [trailer] : []} accessorField="commentCount" xLabel="Date" yLabel="Comments" isSingleTrailer />
             {/* <h2 className='text-2xl'>Statistics</h2>
             <ul>
                 {trailer?.statistics?.map(statistic => <li key={`${statistic.date}`}>Date: {statistic.date.toDateString()} Views: {statistic.viewCount} Likes: {statistic.likeCount} Comments: {statistic.commentCount}</li>)}
