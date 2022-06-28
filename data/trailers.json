@@ -223,7 +223,8 @@
             "Xbox Series X",
             "Nintendo Switch"
         ],
-        "gameUrl": "https://midnightsuns.2k.com"
+        "gameUrl": "https://midnightsuns.2k.com",
+        "releaseDate": "2022-10-07"
     },
     {
         "id": "a4e59c4a-c362-4721-8036-b612d42a3f17",
@@ -485,7 +486,8 @@
             "Xbox Series S",
             "Xbox Series X"
         ],
-        "gameUrl": "https://www.ea.com/games/madden-nfl/madden-nfl-23"
+        "gameUrl": "https://www.ea.com/games/madden-nfl/madden-nfl-23",
+        "releaseDate": "2022-08-19"
     },
     {
         "id": "d53f819c-955a-4ec6-8a14-8b20b3b7d159",
