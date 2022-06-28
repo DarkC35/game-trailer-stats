@@ -695,5 +695,65 @@
             "Nintendo Switch"
         ],
         "gameUrl": "https://www.minecraft.net/about-legends"
+    },
+    {
+        "gameTitle": "HARVESTELLA",
+        "youtubeId": "5Yd3tzhN99E",
+        "categories": [
+            "PC",
+            "Steam",
+            "Nintendo Switch",
+            "Nintendo Exclusive"
+        ],
+        "releaseDate": "2022-11-04",
+        "gameUrl": "https://harvestella.square-enix-games.com"
+    },
+    {
+        "gameTitle": "Disney Dreamlight Valley",
+        "youtubeId": "KUl5sWbOinY",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "releaseDate": "2022-06-06",
+        "gameUrl": "https://disneydreamlightvalley.com"
+    },
+    {
+        "gameTitle": "Return to Monkey Island",
+        "youtubeId": "sahskKAxSCY",
+        "categories": [
+            "PC",
+            "Steam",
+            "Nintendo Switch",
+            "Nintendo Exclusive"
+        ],
+        "gameUrl": "https://returntomonkeyisland.com/"
+    },
+    {
+        "gameTitle": "PAC-MAN WORLD Re-PAC",
+        "youtubeId": "m88oPZTx7rI",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "",
+        "releaseDate": "2022-08-26"
     }
 ]
