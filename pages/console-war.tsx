@@ -38,7 +38,7 @@ const ConsoleWarPage = ({ trailers }: Props) => {
                     <ul>
                         {trailers.filter(trailer => trailer.categories.find(category => category.name === 'PlayStation Exclusive')).map(trailer => (
                             <li key={`playstation-exclusive-${trailer.id}`}>
-                                {trailer.gameTitle} ({trailer.statistics[0].viewCount})
+                            <Link href={`/trailer/${trailer.id}`}><a>{trailer.gameTitle} ({trailer.statistics[0].viewCount})</a></Link>
                             </li>
                         ))}
                     </ul>
@@ -48,7 +48,7 @@ const ConsoleWarPage = ({ trailers }: Props) => {
                     <ul>
                         {trailers.filter(trailer => trailer.categories.find(category => category.name === 'Xbox Exclusive')).map(trailer =>
                         (<li key={`xbox-exclusive-${trailer.id}`}>
-                            {trailer.gameTitle} ({trailer.statistics[0].viewCount})
+                            <Link href={`/trailer/${trailer.id}`}><a>{trailer.gameTitle} ({trailer.statistics[0].viewCount})</a></Link>
                         </li>)
                         )}
                     </ul>
@@ -58,36 +58,12 @@ const ConsoleWarPage = ({ trailers }: Props) => {
                     <ul>
                         {trailers.filter(trailer => trailer.categories.find(category => category.name === 'Nintendo Exclusive')).map(trailer =>
                         (<li key={`nintendo-exclusive-${trailer.id}`}>
-                            {trailer.gameTitle} ({trailer.statistics[0].viewCount})
+                            <Link href={`/trailer/${trailer.id}`}><a>{trailer.gameTitle} ({trailer.statistics[0].viewCount})</a></Link>
                         </li>)
                         )}
                     </ul>
                 </div>
             </div>
-            {/* <h2>PlayStation</h2>
-            <ul>
-                {trailers.filter(trailer => trailer.categories.find(category => category.name === 'PlayStation Exclusive')).map(trailer =>
-                (<li key={`playstation-exclusive-${trailer.id}`}>
-                    {trailer.gameTitle} ({trailer.statistics[0].viewCount})
-                </li>)
-                )}
-            </ul>
-            <h2>Xbox</h2>
-            <ul>
-                {trailers.filter(trailer => trailer.categories.find(category => category.name === 'Xbox Exclusive')).map(trailer =>
-                (<li key={`xbox-exclusive-${trailer.id}`}>
-                    {trailer.gameTitle} ({trailer.statistics[0].viewCount})
-                </li>)
-                )}
-            </ul>
-            <h2>Nintendo</h2>
-            <ul>
-                {trailers.filter(trailer => trailer.categories.find(category => category.name === 'Nintendo Exclusive')).map(trailer =>
-                (<li key={`nintendo-exclusive-${trailer.id}`}>
-                    {trailer.gameTitle} ({trailer.statistics[0].viewCount})
-                </li>)
-                )}
-            </ul> */}
         </div>
     )
 }
