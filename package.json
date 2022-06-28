@@ -9,6 +9,7 @@
     "lint": "next lint",
     "export": "next export",
     "crawl": "node crawler/crawler.js",
+    "crawl-only": "node crawler/crawler.js --crawlOnly",
     "prisma:migrate-dev": "npx prisma migrate dev",
     "prisma:migrate-reset": "npx prisma migrate reset",
     "prisma:migrate": "npx prisma migrate deploy",

@@ -1,14 +1,3 @@
-// import google from '@googleapis/youtube'
-// import data from '../data/trailers.json'
-
-// interface Trailer {
-//     id?: string
-//     game_name: string
-//     youtube_id: string
-//     categories: string[]
-//     game_url?: string
-//     release_date?: Date
-// }
 const path = require('path')
 const fs = require('fs')
 const google = require('@googleapis/youtube')
@@ -24,7 +13,8 @@ const youtube = google.youtube({
     auth: process.env.YOUTUBE_API_KEY
 })
 
-// const trailers: Trailer[] = data
+const maxVideosPerPage = 50
+
 const trailers = data
 
 const prisma = new PrismaClient()
@@ -34,34 +24,41 @@ async function main(crawlOnly) {
         prev[curr.youtubeId] = { ...curr, arrayIndex: currentIndex }
         return prev
     }, {})
-    const ids = trailers.map(trailer => trailer.youtubeId).join(',')
+    const ids = trailers.map(trailer => trailer.youtubeId)
 
     console.log("fetching youtube stats...")
-    const videos = await youtube.videos.list({
-        id: ids,
-        part: 'id,snippet,statistics'
-    })
+    const trailerDtos = []
+    const maxPages = Math.ceil(trailers.length / maxVideosPerPage)
+    for (let page = 0; page < maxPages; page++) {
+        console.log(`fetching youtube page ${page+1}/${maxPages}...`)
+        const videos = await youtube.videos.list({
+            id: ids.slice(page * maxVideosPerPage, (page+1) * maxVideosPerPage).join(','),
+            part: 'id,snippet,statistics'
+        })
 
-    console.log("processing youtube stats...")
-    const trailerDtos = videos.data.items.map(item => ({
-        id: trailerById[item.id].id,
-        gameTitle: trailerById[item.id].gameTitle,
-        gameUrl: trailerById[item.id].gameUrl,
-        releaseDate: trailerById[item.id].releaseDate ? new Date(trailerById[item.id].releaseDate) : null,
-        categories: trailerById[item.id].categories,
-        youtubeId: trailerById[item.id].youtubeId,
-        trailerTitle: item.snippet.title,
-        trailerUrl: `https://www.youtube.com/watch?v=${item.id}`,
-        trailerPublishedAt: item.snippet.publishedAt,
-        trailerChannelTitle: item.snippet.channelTitle,
-        statistics: {
-            viewCount: parseInt(item.statistics.viewCount),
-            likeCount: parseInt(item.statistics.likeCount),
-            commentCount: parseInt(item.statistics.commentCount)
-        }
-    }))
-    // TODO: consider pagination
+        console.log("processing youtube stats...")
+        const returnedTrailerDtos = videos.data.items.map(item => ({
+            id: trailerById[item.id].id,
+            gameTitle: trailerById[item.id].gameTitle,
+            gameUrl: trailerById[item.id].gameUrl,
+            releaseDate: trailerById[item.id].releaseDate ? new Date(trailerById[item.id].releaseDate) : null,
+            categories: trailerById[item.id].categories,
+            youtubeId: trailerById[item.id].youtubeId,
+            trailerTitle: item.snippet.title,
+            trailerUrl: `https://www.youtube.com/watch?v=${item.id}`,
+            trailerPublishedAt: item.snippet.publishedAt,
+            trailerChannelTitle: item.snippet.channelTitle,
+            statistics: {
+                viewCount: parseInt(item.statistics.viewCount),
+                likeCount: parseInt(item.statistics.likeCount),
+                commentCount: parseInt(item.statistics.commentCount)
+            }
+        }))
+        console.log(`${returnedTrailerDtos.length} videos processed`)
+        trailerDtos.push(returnedTrailerDtos)
+    }
 
+    console.log(`number of returned trailers: ${trailerDtos.length}`)
     if (trailerDtos.length !== trailers.length) {
         console.log("warning, number of returned videos don't match number of trailers, please check for wrong IDs")
     }
