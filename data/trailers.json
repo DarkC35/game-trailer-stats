@@ -682,5 +682,17 @@
             "Xbox Series X"
         ],
         "gameUrl": "https://www.stalker2.com/"
+    },
+    {
+        "gameTitle": "Minecraft Legends",
+        "youtubeId": "1JSjZqV-YK8",
+        "categories": [
+            "PC",
+            "Steam",
+            "PlayStation",
+            "Xbox",
+            "Nintendo Switch"
+        ],
+        "gameUrl": "https://www.minecraft.net/about-legends"
     }
 ]
