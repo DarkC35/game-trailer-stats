@@ -19,13 +19,12 @@ const GameListPage = ({ trailers }: Props) => {
             <h1 className='text-4xl'>Game List</h1>
             <Link href={'/'}>Back to Index</Link>
             {trailers.sort((a, b) => a.gameTitle.localeCompare(b.gameTitle)).map(trailer => (
-                <div key={`game-list-item-${trailer.id}`}>
+                <div key={`game-list-item-${trailer.id}`} className='p-2'>
                     <h2 className='text-2xl'><Link href={`/trailer/${trailer.id}`}>{trailer.gameTitle}</Link></h2>
-                    {/* <p>Categories: {trailer.categories?.map(category => category.name).join(';')}</p> */}
+                    <p>Release date: {trailer.releaseDate ? trailer.releaseDate.toDateString() : 'TBA'}</p>
                     <div className='flex flex-wrap'>
                         {trailer.categories?.map(category => {
                             const color = mapCategoryToColor(category.name)
-                            // className='hover:bg-blue-200 dark:hover:bg-blue-300 bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800'
                             return (
                                 <CategoryBadge key={`game-list-item-${trailer.id}-category-${category.slug}`} href={`/category/${category.slug}`} color={color}>{category.name}</CategoryBadge>
                             )
