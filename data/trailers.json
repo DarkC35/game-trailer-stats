@@ -697,6 +697,7 @@
         "gameUrl": "https://www.minecraft.net/about-legends"
     },
     {
+        "id": "3182b34b-1a01-4290-9176-a038c4a76524",
         "gameTitle": "HARVESTELLA",
         "youtubeId": "5Yd3tzhN99E",
         "categories": [
@@ -709,6 +710,7 @@
         "gameUrl": "https://harvestella.square-enix-games.com"
     },
     {
+        "id": "145c49ae-4d41-47b3-8c8c-39d54ac3c8ec",
         "gameTitle": "Disney Dreamlight Valley",
         "youtubeId": "KUl5sWbOinY",
         "categories": [
@@ -728,6 +730,7 @@
         "gameUrl": "https://disneydreamlightvalley.com"
     },
     {
+        "id": "b39fa9cc-0c1f-408a-91f0-e3a720a69851",
         "gameTitle": "Return to Monkey Island",
         "youtubeId": "sahskKAxSCY",
         "categories": [
@@ -739,6 +742,7 @@
         "gameUrl": "https://returntomonkeyisland.com/"
     },
     {
+        "id": "9d55d4d4-297d-42a7-aa7d-e04e7871da90",
         "gameTitle": "PAC-MAN WORLD Re-PAC",
         "youtubeId": "m88oPZTx7rI",
         "categories": [
