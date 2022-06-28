@@ -29,9 +29,9 @@ New trailer entires must not have a `id` since the id is generated and persisted
 
 ## TODOs
 - [ ] Styling
-- [ ] Get 50+ trailers
+- [x] Get 50+ trailers
 - [ ] Interactive charts
 - [ ] Port crawler to TypeScript
 - [ ] Make a list of pre-defined categories and determine naming (e.g. "Xbox Series X" vs. "XSX" or "Uplay" vs. "Ubisoft Connect")
 - [ ] Figure out a category for exclusives (e.g. "Exclusive", "PS Exclusive", ...)
-- [ ] Look out for [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) and [actions/deploy-pages](https://github.com/actions/deploy-pages) releases
+- [ ] Look out for [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) and [actions/deploy-pages](https://github.com/actions/deploy-pages) releases (automated with [dependabot](/.github/dependabot.yml))

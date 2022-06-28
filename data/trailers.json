@@ -666,5 +666,20 @@
             "Nintendo Switch"
         ],
         "gameUrl": ""
+    },
+    {
+        "gameTitle": "S.T.A.L.K.E.R 2",
+        "youtubeId": "ZNLaKOlXVvw",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "Microsoft Store",
+            "Xbox",
+            "Xbox Exclusive",
+            "Xbox Series S",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.stalker2.com/"
     }
 ]
