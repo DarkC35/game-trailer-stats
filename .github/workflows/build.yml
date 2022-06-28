@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'data/trailers.json'
+      - '.github/workflows/crawl.yml'
   workflow_run:
     workflows: [Crawl]
     types: [completed]
