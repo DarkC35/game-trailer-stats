@@ -1330,57 +1330,58 @@ COPY public."Statistic" ("createdAt", "updatedAt", "trailerId", "viewCount", "li
 2022-06-27 00:42:01.564	2022-06-27 00:42:01.565	4762c5df-c703-4b70-b83e-1000114da1f8	185795	7647	538	2022-06-27
 2022-06-27 00:42:01.565	2022-06-27 00:42:01.566	cc479880-7eac-417f-aa20-2bdb51beba31	28284740	421125	30696	2022-06-27
 2022-06-27 00:42:01.571	2022-06-27 00:42:01.572	02978247-aa5e-4021-9e97-12d1b07a24cc	413747	16607	2583	2022-06-27
-2022-06-28 00:39:09.153	2022-06-28 16:23:20.64	db09701c-5b3d-425d-b1bf-742c02fe923e	4033414	142117	18977	2022-06-28
-2022-06-28 00:39:09.154	2022-06-28 16:23:20.642	c2d2ba8e-f6dd-407b-aa1e-24bab8888098	1771944	40665	31143	2022-06-28
-2022-06-28 00:39:09.157	2022-06-28 16:23:20.644	81fd3b51-ca00-411e-adcd-1e3b77cbe91b	6123529	213377	8880	2022-06-28
-2022-06-28 00:39:09.156	2022-06-28 16:23:20.644	841da886-5f4b-4184-aaa8-89e638159ec6	23926816	821015	41882	2022-06-28
-2022-06-28 00:39:09.155	2022-06-28 16:23:20.643	10e77c85-976b-43e9-bb95-65d5d8b92020	2018299	62067	4743	2022-06-28
-2022-06-28 00:39:09.158	2022-06-28 16:23:20.645	13eb9117-d884-4b07-ae5b-0987b8208202	14968774	652001	33193	2022-06-28
-2022-06-28 00:39:09.159	2022-06-28 16:23:20.647	74d3c228-3554-40a6-b5f8-944444ebc3ba	1413050	30005	2160	2022-06-28
-2022-06-28 00:39:09.161	2022-06-28 16:23:20.649	884c5d2c-c5ee-4fa2-a516-4f42fb8c9905	1351504	41477	2475	2022-06-28
-2022-06-28 00:39:09.162	2022-06-28 16:23:20.65	88a2afc6-3e15-402c-aadc-094c470c35ed	17389493	76930	15251	2022-06-28
-2022-06-28 00:39:09.162	2022-06-28 16:23:20.65	df652a57-7728-4e08-8f6d-a44dc2fa64bf	443600	9538	2144	2022-06-28
-2022-06-28 12:54:04.057	2022-06-28 16:23:20.671	29ed6ff9-653a-4cca-aa4d-b78fe0fd8985	2103134	150272	21668	2022-06-28
-2022-06-28 00:39:09.151	2022-06-28 16:23:20.639	fe16bc85-f506-44fd-8fa9-99bf919bacd9	3586423	92742	4632	2022-06-28
-2022-06-28 00:39:09.152	2022-06-28 16:23:20.64	ccedb919-a463-4114-9a94-1e8491aa1db6	15395751	202209	9231	2022-06-28
-2022-06-28 00:39:09.161	2022-06-28 16:23:20.649	406d6f96-c05e-4303-a76d-d3a750c68372	4327032	155491	16522	2022-06-28
-2022-06-28 00:39:09.163	2022-06-28 16:23:20.651	84683ea8-478f-48b8-8004-cece493fee98	2046650	66358	7030	2022-06-28
-2022-06-28 00:39:09.166	2022-06-28 16:23:20.654	17d98a07-34f5-4b1e-979e-1ce356994c1f	4029191	98701	11532	2022-06-28
-2022-06-28 00:39:09.166	2022-06-28 16:23:20.653	88deded7-0232-4819-9e39-2013dc7cc285	92558	7215	685	2022-06-28
-2022-06-28 00:39:09.165	2022-06-28 16:23:20.653	a4e59c4a-c362-4721-8036-b612d42a3f17	1666034	12353	1212	2022-06-28
-2022-06-28 00:39:09.164	2022-06-28 16:23:20.652	a96de528-48cb-4be2-8100-845ad8fdcb2b	2540760	115325	0	2022-06-28
-2022-06-28 00:39:09.164	2022-06-28 16:23:20.652	0563e9f0-cc42-43f2-9da0-3e9562d0ea71	2647933	85223	5122	2022-06-28
-2022-06-28 00:39:09.166	2022-06-28 16:23:20.654	0505a84b-01d7-4716-a7b2-61b70f18c033	4575409	156674	11995	2022-06-28
-2022-06-28 00:39:09.169	2022-06-28 16:23:20.656	f33dc980-fc6c-48c4-a82b-e3723441fa8b	3127335	33525	4486	2022-06-28
-2022-06-28 00:39:09.168	2022-06-28 16:23:20.656	e87d119d-6bd0-4a07-b2c4-ba2cf2516f9e	1626608	60256	6271	2022-06-28
-2022-06-28 00:39:09.167	2022-06-28 16:23:20.655	20d7e49e-782d-4c26-84da-77cacf63fcd6	1365956	35959	1914	2022-06-28
-2022-06-28 00:39:09.168	2022-06-28 16:23:20.655	74dd785f-fa76-4251-9f7a-f63d6b37e37b	3471376	77350	5689	2022-06-28
-2022-06-28 00:39:09.169	2022-06-28 16:23:20.656	b9c517d4-d6e9-429e-b86b-89383cdcedaa	6041094	173606	24147	2022-06-28
-2022-06-28 00:39:09.17	2022-06-28 16:23:20.658	e703f552-72fb-432a-af06-7844bdf34949	5964688	225046	13633	2022-06-28
-2022-06-28 00:39:09.171	2022-06-28 16:23:20.658	7b58eba6-3a0c-4034-9bf2-b7016ed5338f	15932230	388687	23626	2022-06-28
-2022-06-28 00:39:09.17	2022-06-28 16:23:20.658	ec0eb006-91ad-4fe7-b7b7-a883136337e2	1104041	48141	6295	2022-06-28
-2022-06-28 00:39:09.171	2022-06-28 16:23:20.659	d87f51bd-042d-4278-997f-b9f45f28a0bf	2775267	92558	11509	2022-06-28
-2022-06-28 00:39:09.17	2022-06-28 16:23:20.658	f19186ab-e0ab-4e0d-bbd0-5157cd48a497	857994	31444	2697	2022-06-28
-2022-06-28 00:39:09.172	2022-06-28 16:23:20.66	1c5e8059-55e2-4fba-b4d1-102f910c8bb2	2078925	56568	5160	2022-06-28
-2022-06-28 00:39:09.173	2022-06-28 16:23:20.66	ce03228a-e0fb-4bf4-be33-035373d49ed0	5257281	169978	32602	2022-06-28
-2022-06-28 00:39:09.173	2022-06-28 16:23:20.66	d57d9e2d-c7ab-4ab1-8d59-66d3d8509a8b	3420565	84648	11203	2022-06-28
-2022-06-28 00:39:09.172	2022-06-28 16:23:20.659	3e379e98-6601-4435-ab23-dcd434560c22	1595718	25999	2686	2022-06-28
-2022-06-28 00:39:09.174	2022-06-28 16:23:20.661	bfb21ce3-2d6d-4bae-9964-6764a2f13372	10371181	343631	23807	2022-06-28
-2022-06-28 00:39:09.175	2022-06-28 16:23:20.663	d53f819c-955a-4ec6-8a14-8b20b3b7d159	868460	20218	2601	2022-06-28
-2022-06-28 00:39:09.174	2022-06-28 16:23:20.662	6a77c550-9a4f-409a-8865-6105e2b59379	2757743	120476	12006	2022-06-28
-2022-06-28 00:39:09.176	2022-06-28 16:23:20.664	16bf2fec-627c-4a47-9c0e-06ded47b4d60	1022682	36152	2683	2022-06-28
-2022-06-28 00:39:09.177	2022-06-28 16:23:20.664	dc865347-8375-43c9-ba67-1bb999f287e8	911780	65264	7608	2022-06-28
-2022-06-28 00:39:09.175	2022-06-28 16:23:20.663	c764609e-f0bf-4933-8ddf-6e8e3ddeefc8	673086	18101	3519	2022-06-28
-2022-06-28 00:39:09.176	2022-06-28 16:23:20.664	4d02491e-28dc-458e-a012-c76d5a15e496	5354687	167491	21900	2022-06-28
-2022-06-28 00:39:09.179	2022-06-28 16:23:20.666	9eab2380-df01-44cf-83a8-dab86a6be4da	406198	7598	509	2022-06-28
-2022-06-28 00:39:09.18	2022-06-28 16:23:20.668	4762c5df-c703-4b70-b83e-1000114da1f8	186294	7667	538	2022-06-28
-2022-06-28 00:39:09.178	2022-06-28 16:23:20.666	5a6c02a0-8d65-4efb-a3f1-a0bc25c3a9af	140439	11706	1555	2022-06-28
-2022-06-28 00:39:09.179	2022-06-28 16:23:20.666	1d5f49b8-a20f-4152-970e-3bfb15afa7e7	766852	27315	3568	2022-06-28
-2022-06-28 00:39:09.177	2022-06-28 16:23:20.665	ade20fd1-6743-4000-8140-9fe054fc464b	1567264	43236	5073	2022-06-28
-2022-06-28 00:39:09.181	2022-06-28 16:23:20.669	b5a112b7-b42b-4e6c-8450-0c5053e7c7a0	528500	18912	2779	2022-06-28
-2022-06-28 00:39:09.18	2022-06-28 16:23:20.668	46de8926-9640-4d42-9f40-3088a34b3fd1	441332	6085	4338	2022-06-28
-2022-06-28 00:39:09.181	2022-06-28 16:23:20.669	cc479880-7eac-417f-aa20-2bdb51beba31	28357859	422448	30819	2022-06-28
-2022-06-28 00:39:09.182	2022-06-28 16:23:20.67	02978247-aa5e-4021-9e97-12d1b07a24cc	417676	16691	2607	2022-06-28
+2022-06-28 00:39:09.152	2022-06-28 16:28:11.9	ccedb919-a463-4114-9a94-1e8491aa1db6	15395751	202209	9231	2022-06-28
+2022-06-28 00:39:09.154	2022-06-28 16:28:11.912	c2d2ba8e-f6dd-407b-aa1e-24bab8888098	1771944	40665	31143	2022-06-28
+2022-06-28 00:39:09.157	2022-06-28 16:28:11.913	81fd3b51-ca00-411e-adcd-1e3b77cbe91b	6123532	213378	8880	2022-06-28
+2022-06-28 00:39:09.155	2022-06-28 16:28:11.912	10e77c85-976b-43e9-bb95-65d5d8b92020	2018300	62067	4743	2022-06-28
+2022-06-28 00:39:09.162	2022-06-28 16:28:11.916	df652a57-7728-4e08-8f6d-a44dc2fa64bf	443600	9538	2144	2022-06-28
+2022-06-28 00:39:09.161	2022-06-28 16:28:11.915	884c5d2c-c5ee-4fa2-a516-4f42fb8c9905	1351504	41477	2475	2022-06-28
+2022-06-28 00:39:09.161	2022-06-28 16:28:11.914	406d6f96-c05e-4303-a76d-d3a750c68372	4327035	155491	16522	2022-06-28
+2022-06-28 00:39:09.162	2022-06-28 16:28:11.927	88a2afc6-3e15-402c-aadc-094c470c35ed	17389497	76930	15251	2022-06-28
+2022-06-28 12:54:04.057	2022-06-28 16:28:11.95	29ed6ff9-653a-4cca-aa4d-b78fe0fd8985	2103134	150272	21668	2022-06-28
+2022-06-28 16:28:11.82	2022-06-28 16:28:11.82	bb7d5bb4-10a2-4328-9558-779bcaddb827	8458805	386105	28200	2022-06-28
+2022-06-28 00:39:09.151	2022-06-28 16:28:11.898	fe16bc85-f506-44fd-8fa9-99bf919bacd9	3586427	92742	4632	2022-06-28
+2022-06-28 00:39:09.153	2022-06-28 16:28:11.899	db09701c-5b3d-425d-b1bf-742c02fe923e	4033414	142117	18977	2022-06-28
+2022-06-28 00:39:09.156	2022-06-28 16:28:11.912	841da886-5f4b-4184-aaa8-89e638159ec6	23926826	821017	41883	2022-06-28
+2022-06-28 00:39:09.158	2022-06-28 16:28:11.913	13eb9117-d884-4b07-ae5b-0987b8208202	14968803	652002	33193	2022-06-28
+2022-06-28 00:39:09.163	2022-06-28 16:28:11.92	84683ea8-478f-48b8-8004-cece493fee98	2046650	66358	7030	2022-06-28
+2022-06-28 00:39:09.159	2022-06-28 16:28:11.914	74d3c228-3554-40a6-b5f8-944444ebc3ba	1413050	30005	2160	2022-06-28
+2022-06-28 00:39:09.166	2022-06-28 16:28:11.928	17d98a07-34f5-4b1e-979e-1ce356994c1f	4029195	98701	11532	2022-06-28
+2022-06-28 00:39:09.164	2022-06-28 16:28:11.923	a96de528-48cb-4be2-8100-845ad8fdcb2b	2540770	115325	0	2022-06-28
+2022-06-28 00:39:09.165	2022-06-28 16:28:11.927	a4e59c4a-c362-4721-8036-b612d42a3f17	1666034	12353	1212	2022-06-28
+2022-06-28 00:39:09.166	2022-06-28 16:28:11.928	88deded7-0232-4819-9e39-2013dc7cc285	92558	7215	685	2022-06-28
+2022-06-28 00:39:09.164	2022-06-28 16:28:11.926	0563e9f0-cc42-43f2-9da0-3e9562d0ea71	2647935	85223	5122	2022-06-28
+2022-06-28 00:39:09.167	2022-06-28 16:28:11.929	20d7e49e-782d-4c26-84da-77cacf63fcd6	1365957	35959	1914	2022-06-28
+2022-06-28 00:39:09.166	2022-06-28 16:28:11.929	0505a84b-01d7-4716-a7b2-61b70f18c033	4575411	156674	11996	2022-06-28
+2022-06-28 00:39:09.168	2022-06-28 16:28:11.93	e87d119d-6bd0-4a07-b2c4-ba2cf2516f9e	1626608	60256	6271	2022-06-28
+2022-06-28 00:39:09.169	2022-06-28 16:28:11.93	f33dc980-fc6c-48c4-a82b-e3723441fa8b	3127336	33525	4486	2022-06-28
+2022-06-28 00:39:09.169	2022-06-28 16:28:11.931	b9c517d4-d6e9-429e-b86b-89383cdcedaa	6041094	173606	24147	2022-06-28
+2022-06-28 00:39:09.168	2022-06-28 16:28:11.93	74dd785f-fa76-4251-9f7a-f63d6b37e37b	3471378	77350	5689	2022-06-28
+2022-06-28 00:39:09.17	2022-06-28 16:28:11.937	e703f552-72fb-432a-af06-7844bdf34949	5964698	225047	13633	2022-06-28
+2022-06-28 00:39:09.171	2022-06-28 16:28:11.938	7b58eba6-3a0c-4034-9bf2-b7016ed5338f	15932242	388687	23627	2022-06-28
+2022-06-28 00:39:09.171	2022-06-28 16:28:11.939	d87f51bd-042d-4278-997f-b9f45f28a0bf	2775269	92559	11509	2022-06-28
+2022-06-28 00:39:09.172	2022-06-28 16:28:11.94	1c5e8059-55e2-4fba-b4d1-102f910c8bb2	2078929	56568	5160	2022-06-28
+2022-06-28 00:39:09.173	2022-06-28 16:28:11.941	ce03228a-e0fb-4bf4-be33-035373d49ed0	5257286	169978	32602	2022-06-28
+2022-06-28 00:39:09.17	2022-06-28 16:28:11.937	f19186ab-e0ab-4e0d-bbd0-5157cd48a497	857996	31444	2697	2022-06-28
+2022-06-28 00:39:09.173	2022-06-28 16:28:11.941	d57d9e2d-c7ab-4ab1-8d59-66d3d8509a8b	3420580	84648	11203	2022-06-28
+2022-06-28 00:39:09.172	2022-06-28 16:28:11.94	3e379e98-6601-4435-ab23-dcd434560c22	1595718	25999	2686	2022-06-28
+2022-06-28 00:39:09.174	2022-06-28 16:28:11.942	bfb21ce3-2d6d-4bae-9964-6764a2f13372	10371181	343631	23807	2022-06-28
+2022-06-28 00:39:09.17	2022-06-28 16:28:11.933	ec0eb006-91ad-4fe7-b7b7-a883136337e2	1104041	48141	6295	2022-06-28
+2022-06-28 00:39:09.174	2022-06-28 16:28:11.943	6a77c550-9a4f-409a-8865-6105e2b59379	2757746	120476	12006	2022-06-28
+2022-06-28 00:39:09.175	2022-06-28 16:28:11.944	d53f819c-955a-4ec6-8a14-8b20b3b7d159	868461	20218	2601	2022-06-28
+2022-06-28 00:39:09.177	2022-06-28 16:28:11.945	dc865347-8375-43c9-ba67-1bb999f287e8	911781	65264	7608	2022-06-28
+2022-06-28 00:39:09.176	2022-06-28 16:28:11.945	16bf2fec-627c-4a47-9c0e-06ded47b4d60	1022682	36152	2683	2022-06-28
+2022-06-28 00:39:09.176	2022-06-28 16:28:11.945	4d02491e-28dc-458e-a012-c76d5a15e496	5354694	167491	21900	2022-06-28
+2022-06-28 00:39:09.175	2022-06-28 16:28:11.944	c764609e-f0bf-4933-8ddf-6e8e3ddeefc8	673088	18101	3519	2022-06-28
+2022-06-28 00:39:09.179	2022-06-28 16:28:11.947	9eab2380-df01-44cf-83a8-dab86a6be4da	406199	7598	509	2022-06-28
+2022-06-28 00:39:09.178	2022-06-28 16:28:11.946	5a6c02a0-8d65-4efb-a3f1-a0bc25c3a9af	140440	11707	1555	2022-06-28
+2022-06-28 00:39:09.179	2022-06-28 16:28:11.947	1d5f49b8-a20f-4152-970e-3bfb15afa7e7	766855	27316	3568	2022-06-28
+2022-06-28 00:39:09.177	2022-06-28 16:28:11.946	ade20fd1-6743-4000-8140-9fe054fc464b	1567264	43236	5073	2022-06-28
+2022-06-28 00:39:09.18	2022-06-28 16:28:11.948	46de8926-9640-4d42-9f40-3088a34b3fd1	441332	6085	4338	2022-06-28
+2022-06-28 00:39:09.181	2022-06-28 16:28:11.949	b5a112b7-b42b-4e6c-8450-0c5053e7c7a0	528502	18912	2779	2022-06-28
+2022-06-28 00:39:09.18	2022-06-28 16:28:11.948	4762c5df-c703-4b70-b83e-1000114da1f8	186294	7667	538	2022-06-28
+2022-06-28 00:39:09.181	2022-06-28 16:28:11.949	cc479880-7eac-417f-aa20-2bdb51beba31	28357909	422452	30819	2022-06-28
+2022-06-28 00:39:09.182	2022-06-28 16:28:11.95	02978247-aa5e-4021-9e97-12d1b07a24cc	417677	16692	2607	2022-06-28
 \.
 
 
@@ -1389,57 +1390,58 @@ COPY public."Statistic" ("createdAt", "updatedAt", "trailerId", "viewCount", "li
 --
 
 COPY public."Trailer" (id, "createdAt", "updatedAt", "gameTitle", "gameUrl", "releaseDate", "youtubeId", "trailerTitle", "trailerUrl", "trailerPublishedAt", "trailerChannelTitle") FROM stdin;
-c2d2ba8e-f6dd-407b-aa1e-24bab8888098	2022-05-30 14:24:06.907	2022-06-28 16:23:20.642	Saints Row	https://saintsrow.com	2022-08-23	YgjzDJA1o1E	SAINTS ROW Official Announce Trailer	https://www.youtube.com/watch?v=YgjzDJA1o1E	2021-08-25 18:08:41	Saints Row
-ccedb919-a463-4114-9a94-1e8491aa1db6	2022-05-29 13:36:10.929	2022-06-28 16:23:20.64	Avatar: Frontiers of Pandora	https://www.ubisoft.com/en-us/game/avatar-frontiers-of-pandora	\N	Axmg1E4HrVE	Avatar: Frontiers of Pandora – First Look Trailer	https://www.youtube.com/watch?v=Axmg1E4HrVE	2021-06-12 20:05:41	Ubisoft
-81fd3b51-ca00-411e-adcd-1e3b77cbe91b	2022-05-30 14:22:54.409	2022-06-28 16:23:20.644	Marvel's Wolverine	https://insomniac.games/game/marvels-wolverine	\N	Zcj9AzHv_l8	Marvel's Wolverine - PlayStation Showcase 2021: Announcement Teaser Trailer | PS5	https://www.youtube.com/watch?v=Zcj9AzHv_l8	2021-09-09 21:13:51	PlayStation
-406d6f96-c05e-4303-a76d-d3a750c68372	2022-05-30 17:05:40.64	2022-06-28 16:23:20.649	Gotham Knights	https://www.gothamknightsgame.com	2022-10-25	IhVf_3TeTQE	Gotham Knights - World Premiere Trailer	https://www.youtube.com/watch?v=IhVf_3TeTQE	2020-08-22 17:34:48	DC
-88a2afc6-3e15-402c-aadc-094c470c35ed	2022-05-30 17:05:40.64	2022-06-28 16:23:20.65	Starfield	https://bethesda.net/game/starfield	2022-11-11	pYqyVpCV-3c	Starfield: Official Teaser Trailer	https://www.youtube.com/watch?v=pYqyVpCV-3c	2021-06-13 17:07:32	Bethesda Softworks
-a4e59c4a-c362-4721-8036-b612d42a3f17	2022-05-30 17:05:40.641	2022-06-28 16:23:20.653	A Plague Tale: Requiem	https://www.asobostudio.com/games/plague-tale-requiem	\N	Y-Q5wHtguZI	[E3 2021] A Plague Tale: Requiem - Reveal Trailer	https://www.youtube.com/watch?v=Y-Q5wHtguZI	2021-06-13 21:01:14	Focus Entertainment
-17d98a07-34f5-4b1e-979e-1ce356994c1f	2022-05-30 17:05:40.64	2022-06-28 16:23:20.654	Final Fantasy XVI	https://finalfantasyxvi.com/	\N	yr6PtdY0i7M	Final Fantasy XVI - Awakening Trailer | PS5	https://www.youtube.com/watch?v=yr6PtdY0i7M	2020-09-16 20:13:43	PlayStation
-74dd785f-fa76-4251-9f7a-f63d6b37e37b	2022-05-30 17:05:40.648	2022-06-28 16:23:20.655	Pragmata	https://news.capcomusa.com/2020/06/11/announcing-pragmata-a-brand-new-game-from-capcom-launching-2022/	\N	xoxCboik0Is	Pragmata - Announcement Trailer | PS5	https://www.youtube.com/watch?v=xoxCboik0Is	2020-06-11 21:40:48	PlayStation
-20d7e49e-782d-4c26-84da-77cacf63fcd6	2022-05-30 17:05:40.648	2022-06-28 16:23:20.655	Horizon Call of the Mountain	https://www.playstation.com/games/horizon-call-of-the-mountain/	\N	yPNn-jwAC9c	Horizon Call of the Mountain - Teaser Trailer	https://www.youtube.com/watch?v=yPNn-jwAC9c	2022-01-05 01:30:41	PlayStation
-e87d119d-6bd0-4a07-b2c4-ba2cf2516f9e	2022-05-30 17:05:40.647	2022-06-28 16:23:20.656	Project Eve	http://eve.shiftup.co.kr	\N	3X3JR3pG0I8	Project Eve - PlayStation Showcase 2021: First Trailer | PS5	https://www.youtube.com/watch?v=3X3JR3pG0I8	2021-09-09 20:11:09	PlayStation
-f33dc980-fc6c-48c4-a82b-e3723441fa8b	2022-05-30 17:05:40.647	2022-06-28 16:23:20.656	Skull and Bones	https://www.ubisoft.com/en-us/game/skull-and-bones	\N	_9YYYVG0YQI	Skull and Bones: E3 2017 Cinematic Announcement Trailer | Ubisoft [NA]	https://www.youtube.com/watch?v=_9YYYVG0YQI	2017-06-12 20:36:23	Ubisoft North America
-b9c517d4-d6e9-429e-b86b-89383cdcedaa	2022-05-30 17:05:40.647	2022-06-28 16:23:20.656	Overwatch 2	https://overwatch2.playoverwatch.com	\N	dZl1yGUetjI	Overwatch 2 Gameplay Trailer	https://www.youtube.com/watch?v=dZl1yGUetjI	2019-11-01 19:19:18	PlayOverwatch
-4d02491e-28dc-458e-a012-c76d5a15e496	2022-06-02 20:15:23.853	2022-06-28 16:23:20.664	Hollow Knight: Silksong	https://www.hollowknightsilksong.com/	\N	yQxwbZsL14Y	Hollow Knight: Silksong - Announcement Trailer - Nintendo Switch	https://www.youtube.com/watch?v=yQxwbZsL14Y	2019-02-14 14:00:08	Nintendo
-dc865347-8375-43c9-ba67-1bb999f287e8	2022-06-02 20:15:23.853	2022-06-28 16:23:20.664	Victoria 3	https://www.victoria3game.com	\N	siZXs4d5Gqg	Victoria 3 - Announcement Trailer	https://www.youtube.com/watch?v=siZXs4d5Gqg	2021-05-21 18:45:32	Paradox Interactive
-ade20fd1-6743-4000-8140-9fe054fc464b	2022-06-02 20:15:23.854	2022-06-28 16:23:20.665	Vampire: The Masquerade - Bloodlines 2	https://www.bloodlines2.com/	\N	SYvWfDxhm_s	Vampire: The Masquerade - Bloodlines 2 - Announcement Trailer (ESRB)	https://www.youtube.com/watch?v=SYvWfDxhm_s	2019-03-22 03:30:37	Paradox Interactive
-5a6c02a0-8d65-4efb-a3f1-a0bc25c3a9af	2022-06-03 08:38:40.796	2022-06-28 16:23:20.665	Resident Evil 4 Remake	https://www.residentevil.com/re4/	2023-03-24	rcFarJACzx0	Resident Evil 4 - Announcement Trailer	https://www.youtube.com/watch?v=rcFarJACzx0	2022-06-02 22:56:24	Resident Evil
-9eab2380-df01-44cf-83a8-dab86a6be4da	2022-06-03 08:38:40.796	2022-06-28 16:23:20.666	The Callisto Protocol	https://www.callistothegame.com	\N	WnVhgyLbC8A	The Callisto Protocol - Cinematic Trailer Reveal	https://www.youtube.com/watch?v=WnVhgyLbC8A	2020-12-11 00:30:54	The Callisto Protocol
-4762c5df-c703-4b70-b83e-1000114da1f8	2022-06-07 05:33:23.628	2022-06-28 16:23:20.668	Eternights	https://www.studiosai.dev/eternights	\N	YkN-2gUUmc8	Eternights - State of Play June 2022 Reveal Trailer | PS5 & PS4 Games	https://www.youtube.com/watch?v=YkN-2gUUmc8	2022-06-02 22:18:31	PlayStation
-cc479880-7eac-417f-aa20-2bdb51beba31	2022-06-09 08:55:56.932	2022-06-28 16:23:20.669	Call of Duty: Modern Warfare II	https://www.callofduty.com/modernwarfare2	2022-10-28	r72GP1PIZa0	Call of Duty: Modern Warfare II - World Gameplay Reveal Trailer	https://www.youtube.com/watch?v=r72GP1PIZa0	2022-06-08 17:00:57	Call of Duty
-02978247-aa5e-4021-9e97-12d1b07a24cc	2022-06-17 09:30:03.553	2022-06-28 16:23:20.67	CRISIS CORE –FINAL FANTASY VII– REUNION		\N	RjXBCaZexK4	CRISIS CORE -FINAL FANTASY VII- REUNION Announcement Trailer	https://www.youtube.com/watch?v=RjXBCaZexK4	2022-06-16 22:15:28	FINAL FANTASY
-29ed6ff9-653a-4cca-aa4d-b78fe0fd8985	2022-06-28 12:54:04.057	2022-06-28 16:23:20.671	S.T.A.L.K.E.R 2	https://www.stalker2.com/	\N	ZNLaKOlXVvw	S.T.A.L.K.E.R. 2: Сердце Чернобыля — Официальный геймплейный трейлер	https://www.youtube.com/watch?v=ZNLaKOlXVvw	2021-06-13 17:18:01	GSC Game World
-fe16bc85-f506-44fd-8fa9-99bf919bacd9	2022-05-28 18:13:14.03	2022-06-28 16:23:20.639	Stray	https://stray.game/	\N	u84hRUQlaio	Stray - Teaser Trailer | PS5	https://www.youtube.com/watch?v=u84hRUQlaio	2020-06-11 20:32:30	PlayStation
-db09701c-5b3d-425d-b1bf-742c02fe923e	2022-05-29 16:55:22.41	2022-06-28 16:23:20.64	Pokemon Scarlet and Violet	https://scarletviolet.pokemon.com	\N	MAmueMsFR1o	Pokémon Scarlet and Pokémon Violet | Announcement Trailer	https://www.youtube.com/watch?v=MAmueMsFR1o	2022-02-27 14:28:09	The Official Pokémon YouTube channel
-841da886-5f4b-4184-aaa8-89e638159ec6	2022-06-05 09:02:03.926	2022-06-28 16:23:20.644	Marvel's Spider-Man 2	https://insomniac.games/game/marvels-spider-man-2	\N	qIQ3xNqkVC4	Marvel's Spider-Man 2 - PlayStation Showcase 2021: Reveal Trailer | PS5	https://www.youtube.com/watch?v=qIQ3xNqkVC4	2021-09-09 20:39:50	PlayStation
-10e77c85-976b-43e9-bb95-65d5d8b92020	2022-05-30 14:22:54.41	2022-06-28 16:23:20.643	Forspoken	https://forspoken.square-enix-games.com	2022-10-11	AdZUrXCqUck	Forspoken - PlayStation Showcase 2021: Story Introduction Trailer | PS5	https://www.youtube.com/watch?v=AdZUrXCqUck	2021-09-09 20:16:10	PlayStation
-a96de528-48cb-4be2-8100-845ad8fdcb2b	2022-05-30 17:05:40.641	2022-06-28 16:23:20.652	Sonic Frontiers	https://asia.sega.com/SonicFrontiers/en/	\N	RRkKZG1z9PY	Sonic Frontiers - Announce Trailer	https://www.youtube.com/watch?v=RRkKZG1z9PY	2021-12-10 02:14:12	Sonic the Hedgehog
-0563e9f0-cc42-43f2-9da0-3e9562d0ea71	2022-05-30 17:05:40.642	2022-06-28 16:23:20.652	Marvel's Midnight Suns	https://midnightsuns.2k.com	\N	Ripgh8W2PMg	Marvel’s Midnight Suns | Announcement Trailer	https://www.youtube.com/watch?v=Ripgh8W2PMg	2021-08-25 21:00:08	Marvel Entertainment
-88deded7-0232-4819-9e39-2013dc7cc285	2022-05-30 17:05:40.64	2022-06-28 16:23:20.653	The Outer Worlds 2	https://outerworlds2.obsidian.net/	\N	AQt-NjR-a3k	The Outer Worlds 2 Announcement Teaser Trailer	https://www.youtube.com/watch?v=AQt-NjR-a3k	2021-06-13 18:04:44	Obsidian Entertainment
-ec0eb006-91ad-4fe7-b7b7-a883136337e2	2022-05-30 17:05:40.648	2022-06-28 16:23:20.658	Dead Space Remake	https://www.ea.com/games/dead-space	2023-01-27	l5WeBNfX-og	Dead Space Official Teaser Trailer – EA Play Live 2021	https://www.youtube.com/watch?v=l5WeBNfX-og	2021-07-22 17:54:27	Dead Space
-e703f552-72fb-432a-af06-7844bdf34949	2022-05-31 18:23:03.772	2022-06-28 16:23:20.658	STAR WARS Jedi: Survivor™	https://www.starwars.com/games-apps/star-wars-jedi-survivor	\N	4HLDaBGdnLc	Star Wars Jedi: Survivor - Official Teaser	https://www.youtube.com/watch?v=4HLDaBGdnLc	2022-05-27 21:02:00	EA Star Wars
-7b58eba6-3a0c-4034-9bf2-b7016ed5338f	2022-05-31 18:23:03.772	2022-06-28 16:23:20.658	Star Wars Eclipse™	https://www.starwarseclipse.com/	\N	4cJpiOPKH14	Star Wars Eclipse – Official Cinematic Reveal Trailer	https://www.youtube.com/watch?v=4cJpiOPKH14	2021-12-10 01:19:09	Star Wars
-d87f51bd-042d-4278-997f-b9f45f28a0bf	2022-05-31 18:23:03.772	2022-06-28 16:23:20.659	Warhammer 40,000: Darktide	https://www.playdarktide.com/	2022-09-13	e-UifdRoC8I	Warhammer 40,000: Darktide - Official Gameplay Trailer	https://www.youtube.com/watch?v=e-UifdRoC8I	2020-12-11 00:34:01	Fatshark
-bfb21ce3-2d6d-4bae-9964-6764a2f13372	2022-05-31 18:23:03.772	2022-06-28 16:23:20.661	Suicide Squad: Kill the Justice League	https://www.suicidesquadgame.com	\N	2EVFYstVuVk	Suicide Squad: Kill the Justice League Official Teaser Trailer	https://www.youtube.com/watch?v=2EVFYstVuVk	2020-08-23 00:19:51	DC
-6a77c550-9a4f-409a-8865-6105e2b59379	2022-05-31 18:36:44.885	2022-06-28 16:23:20.662	Slime Rancher 2	http://slimerancher.com/	\N	ehh3m59vbA0	Slime Rancher 2 Official Announcement Trailer	https://www.youtube.com/watch?v=ehh3m59vbA0	2021-06-13 17:50:32	Monomi Park
-d53f819c-955a-4ec6-8a14-8b20b3b7d159	2022-06-02 18:54:46.529	2022-06-28 16:23:20.663	Avowed	https://avowed.obsidian.net/	\N	YS8n-pZQWWc	Avowed - Reveal Trailer	https://www.youtube.com/watch?v=YS8n-pZQWWc	2020-07-23 16:29:21	Obsidian Entertainment
-c764609e-f0bf-4933-8ddf-6e8e3ddeefc8	2022-06-02 18:19:15.386	2022-06-28 16:23:20.663	Madden NFL 23	https://www.ea.com/games/madden-nfl/madden-nfl-23	\N	Qv6G_w8RUOo	Madden 23 Official Reveal Trailer | Introducing FieldSENSE™	https://www.youtube.com/watch?v=Qv6G_w8RUOo	2022-06-02 13:58:24	EA SPORTS MADDEN NFL
-16bf2fec-627c-4a47-9c0e-06ded47b4d60	2022-06-02 20:15:23.853	2022-06-28 16:23:20.664	Perfect Dark	https://www.xbox.com/games/perfect-dark	\N	S--lFTxAVs8	Perfect Dark - Official Announce Trailer - The Game Awards 2020	https://www.youtube.com/watch?v=S--lFTxAVs8	2020-12-11 00:16:24	Xbox
-1d5f49b8-a20f-4152-970e-3bfb15afa7e7	2022-06-03 08:38:40.796	2022-06-28 16:23:20.666	Street Fighter 6	https://www.streetfighter.com/6	\N	GZud-p0QRvA	Street Fighter 6 - Announce Trailer	https://www.youtube.com/watch?v=GZud-p0QRvA	2022-06-02 22:36:01	Capcom USA
-46de8926-9640-4d42-9f40-3088a34b3fd1	2022-06-05 08:40:29.616	2022-06-28 16:23:20.668	Tom Clancy's Ghost Recon® Frontline	https://www.ubisoft.com/en-us/game/ghost-recon/frontline	\N	7NewkthNMDE	Tom Clancy's Ghost Recon Frontline: Reveal Trailer | Ubisoft [NA]	https://www.youtube.com/watch?v=7NewkthNMDE	2021-10-05 17:30:01	Ubisoft North America
-b5a112b7-b42b-4e6c-8450-0c5053e7c7a0	2022-06-17 09:25:13.189	2022-06-28 16:23:20.669	Final Fantasy VII - REBIRTH	https://www.square-enix-games.com/news/final-fantasy-vii-rebirth	\N	H_4CkyOmuuU	FINAL FANTASY VII REBIRTH – First Look Trailer	https://www.youtube.com/watch?v=H_4CkyOmuuU	2022-06-16 22:18:09	FINAL FANTASY
-74d3c228-3554-40a6-b5f8-944444ebc3ba	2022-05-30 17:05:40.642	2022-06-28 16:23:20.647	Hogwarts Legacy	https://www.hogwartslegacy.com	\N	BsC-Rl9GYy0	Hogwarts Legacy – Official 4K Reveal Trailer	https://www.youtube.com/watch?v=BsC-Rl9GYy0	2020-09-16 20:16:28	Hogwarts Legacy
-13eb9117-d884-4b07-ae5b-0987b8208202	2022-05-30 14:22:54.409	2022-06-28 16:23:20.645	God of War Ragnarök	https://playstation.com/games/god-of-war-ragnarok	\N	EE-4GvjKcfs	God Of War Ragnarok - PlayStation Showcase 2021 Reveal Trailer | PS5	https://www.youtube.com/watch?v=EE-4GvjKcfs	2021-09-09 21:08:35	PlayStation
-df652a57-7728-4e08-8f6d-a44dc2fa64bf	2022-05-30 17:05:40.64	2022-06-28 16:23:20.65	Redfall	https://bethesda.net/game/redfall	\N	3pWjcqXnP2g	Redfall - Official Announce Trailer - Xbox & Bethesda Games Showcase 2021	https://www.youtube.com/watch?v=3pWjcqXnP2g	2021-06-13 18:23:53	Bethesda Softworks
-84683ea8-478f-48b8-8004-cece493fee98	2022-05-30 17:05:40.64	2022-06-28 16:23:20.651	ARK II	http://www.studiowildcard.com/	\N	RG2aOpCQQSA	ARK 2 Announcement Teaser	https://www.youtube.com/watch?v=RG2aOpCQQSA	2020-12-13 05:52:27	ARK: Survival Evolved
-3e379e98-6601-4435-ab23-dcd434560c22	2022-05-31 18:23:03.772	2022-06-28 16:23:20.659	Warhammer 40,000: SPACE MARINE 2	https://www.focus-entmt.com/en/games/warhammer-40000-space-marine-2	\N	TgxVQRTXtz0	Warhammer 40,000: SPACE MARINE 2 – World Premiere Reveal | The Game Awards 2021	https://www.youtube.com/watch?v=TgxVQRTXtz0	2021-12-10 02:40:44	Focus Entertainment
-ce03228a-e0fb-4bf4-be33-035373d49ed0	2022-05-31 18:23:03.772	2022-06-28 16:23:20.66	Splatoon 3	https://www.nintendo.com/store/products/splatoon-3-switch/	2022-09-09	GUYDXVDLmns	Splatoon 3 - Announcement Trailer - Nintendo Switch	https://www.youtube.com/watch?v=GUYDXVDLmns	2021-02-17 22:53:53	Nintendo
-884c5d2c-c5ee-4fa2-a516-4f42fb8c9905	2022-05-30 17:05:40.64	2022-06-28 16:23:20.649	Fable	https://www.xbox.com/games/fable	\N	oVkSZXPklQ4	Fable - Official Announce Trailer	https://www.youtube.com/watch?v=oVkSZXPklQ4	2020-07-23 17:01:53	Xbox
-d57d9e2d-c7ab-4ab1-8d59-66d3d8509a8b	2022-05-31 18:23:03.771	2022-06-28 16:23:20.66	Mario + Rabbids Sparks of Hope	https://www.ubisoft.com/en-us/game/mario-rabbids/sparks-of-hope	\N	VHIuHMv3t88	Mario + Rabbids Sparks of Hope - Cinematic World Premiere Trailer - Nintendo Switch	https://www.youtube.com/watch?v=VHIuHMv3t88	2021-06-12 20:13:07	Nintendo
-0505a84b-01d7-4716-a7b2-61b70f18c033	2022-05-30 17:05:40.64	2022-06-28 16:23:20.654	Star Wars: Knights of the Old Republic Remake	https://www.aspyr.com/starwars	\N	lL-RfE-ioJ8	Star Wars: Knights of the Old Republic Remake - PlayStation Showcase 2021 Trailer | PS5	https://www.youtube.com/watch?v=lL-RfE-ioJ8	2021-09-09 20:06:31	PlayStation
-f19186ab-e0ab-4e0d-bbd0-5157cd48a497	2022-05-30 17:05:40.648	2022-06-28 16:23:20.658	F1® 22	https://www.ea.com/games/f1/f1-22	2022-07-01	K5RLRoRWUds	F1® 22 | Announce Trailer	https://www.youtube.com/watch?v=K5RLRoRWUds	2022-04-21 14:58:59	F1® Games From Codemasters
-1c5e8059-55e2-4fba-b4d1-102f910c8bb2	2022-05-31 18:23:03.772	2022-06-28 16:23:20.66	Mario Strikers: Battle League Football	https://www.nintendo.com/store/products/mario-strikers-battle-league-switch/	2022-06-10	cLAzzYz92r4	Mario Strikers: Battle League - Announcement Trailer - Nintendo Switch	https://www.youtube.com/watch?v=cLAzzYz92r4	2022-02-09 22:08:07	Nintendo
+c2d2ba8e-f6dd-407b-aa1e-24bab8888098	2022-05-30 14:24:06.907	2022-06-28 16:28:11.902	Saints Row	https://saintsrow.com	2022-08-23	YgjzDJA1o1E	SAINTS ROW Official Announce Trailer	https://www.youtube.com/watch?v=YgjzDJA1o1E	2021-08-25 18:08:41	Saints Row
+db09701c-5b3d-425d-b1bf-742c02fe923e	2022-05-29 16:55:22.41	2022-06-28 16:28:11.899	Pokemon Scarlet and Violet	https://scarletviolet.pokemon.com	\N	MAmueMsFR1o	Pokémon Scarlet and Pokémon Violet | Announcement Trailer	https://www.youtube.com/watch?v=MAmueMsFR1o	2022-02-27 14:28:09	The Official Pokémon YouTube channel
+10e77c85-976b-43e9-bb95-65d5d8b92020	2022-05-30 14:22:54.41	2022-06-28 16:28:11.912	Forspoken	https://forspoken.square-enix-games.com	2022-10-11	AdZUrXCqUck	Forspoken - PlayStation Showcase 2021: Story Introduction Trailer | PS5	https://www.youtube.com/watch?v=AdZUrXCqUck	2021-09-09 20:16:10	PlayStation
+406d6f96-c05e-4303-a76d-d3a750c68372	2022-05-30 17:05:40.64	2022-06-28 16:28:11.914	Gotham Knights	https://www.gothamknightsgame.com	2022-10-25	IhVf_3TeTQE	Gotham Knights - World Premiere Trailer	https://www.youtube.com/watch?v=IhVf_3TeTQE	2020-08-22 17:34:48	DC
+a96de528-48cb-4be2-8100-845ad8fdcb2b	2022-05-30 17:05:40.641	2022-06-28 16:28:11.923	Sonic Frontiers	https://asia.sega.com/SonicFrontiers/en/	\N	RRkKZG1z9PY	Sonic Frontiers - Announce Trailer	https://www.youtube.com/watch?v=RRkKZG1z9PY	2021-12-10 02:14:12	Sonic the Hedgehog
+88a2afc6-3e15-402c-aadc-094c470c35ed	2022-05-30 17:05:40.64	2022-06-28 16:28:11.927	Starfield	https://bethesda.net/game/starfield	2022-11-11	pYqyVpCV-3c	Starfield: Official Teaser Trailer	https://www.youtube.com/watch?v=pYqyVpCV-3c	2021-06-13 17:07:32	Bethesda Softworks
+0563e9f0-cc42-43f2-9da0-3e9562d0ea71	2022-05-30 17:05:40.642	2022-06-28 16:28:11.926	Marvel's Midnight Suns	https://midnightsuns.2k.com	\N	Ripgh8W2PMg	Marvel’s Midnight Suns | Announcement Trailer	https://www.youtube.com/watch?v=Ripgh8W2PMg	2021-08-25 21:00:08	Marvel Entertainment
+a4e59c4a-c362-4721-8036-b612d42a3f17	2022-05-30 17:05:40.641	2022-06-28 16:28:11.927	A Plague Tale: Requiem	https://www.asobostudio.com/games/plague-tale-requiem	\N	Y-Q5wHtguZI	[E3 2021] A Plague Tale: Requiem - Reveal Trailer	https://www.youtube.com/watch?v=Y-Q5wHtguZI	2021-06-13 21:01:14	Focus Entertainment
+e87d119d-6bd0-4a07-b2c4-ba2cf2516f9e	2022-05-30 17:05:40.647	2022-06-28 16:28:11.93	Project Eve	http://eve.shiftup.co.kr	\N	3X3JR3pG0I8	Project Eve - PlayStation Showcase 2021: First Trailer | PS5	https://www.youtube.com/watch?v=3X3JR3pG0I8	2021-09-09 20:11:09	PlayStation
+f33dc980-fc6c-48c4-a82b-e3723441fa8b	2022-05-30 17:05:40.647	2022-06-28 16:28:11.93	Skull and Bones	https://www.ubisoft.com/en-us/game/skull-and-bones	\N	_9YYYVG0YQI	Skull and Bones: E3 2017 Cinematic Announcement Trailer | Ubisoft [NA]	https://www.youtube.com/watch?v=_9YYYVG0YQI	2017-06-12 20:36:23	Ubisoft North America
+b9c517d4-d6e9-429e-b86b-89383cdcedaa	2022-05-30 17:05:40.647	2022-06-28 16:28:11.931	Overwatch 2	https://overwatch2.playoverwatch.com	\N	dZl1yGUetjI	Overwatch 2 Gameplay Trailer	https://www.youtube.com/watch?v=dZl1yGUetjI	2019-11-01 19:19:18	PlayOverwatch
+4d02491e-28dc-458e-a012-c76d5a15e496	2022-06-02 20:15:23.853	2022-06-28 16:28:11.945	Hollow Knight: Silksong	https://www.hollowknightsilksong.com/	\N	yQxwbZsL14Y	Hollow Knight: Silksong - Announcement Trailer - Nintendo Switch	https://www.youtube.com/watch?v=yQxwbZsL14Y	2019-02-14 14:00:08	Nintendo
+dc865347-8375-43c9-ba67-1bb999f287e8	2022-06-02 20:15:23.853	2022-06-28 16:28:11.945	Victoria 3	https://www.victoria3game.com	\N	siZXs4d5Gqg	Victoria 3 - Announcement Trailer	https://www.youtube.com/watch?v=siZXs4d5Gqg	2021-05-21 18:45:32	Paradox Interactive
+5a6c02a0-8d65-4efb-a3f1-a0bc25c3a9af	2022-06-03 08:38:40.796	2022-06-28 16:28:11.946	Resident Evil 4 Remake	https://www.residentevil.com/re4/	2023-03-24	rcFarJACzx0	Resident Evil 4 - Announcement Trailer	https://www.youtube.com/watch?v=rcFarJACzx0	2022-06-02 22:56:24	Resident Evil
+ade20fd1-6743-4000-8140-9fe054fc464b	2022-06-02 20:15:23.854	2022-06-28 16:28:11.946	Vampire: The Masquerade - Bloodlines 2	https://www.bloodlines2.com/	\N	SYvWfDxhm_s	Vampire: The Masquerade - Bloodlines 2 - Announcement Trailer (ESRB)	https://www.youtube.com/watch?v=SYvWfDxhm_s	2019-03-22 03:30:37	Paradox Interactive
+9eab2380-df01-44cf-83a8-dab86a6be4da	2022-06-03 08:38:40.796	2022-06-28 16:28:11.947	The Callisto Protocol	https://www.callistothegame.com	\N	WnVhgyLbC8A	The Callisto Protocol - Cinematic Trailer Reveal	https://www.youtube.com/watch?v=WnVhgyLbC8A	2020-12-11 00:30:54	The Callisto Protocol
+4762c5df-c703-4b70-b83e-1000114da1f8	2022-06-07 05:33:23.628	2022-06-28 16:28:11.948	Eternights	https://www.studiosai.dev/eternights	\N	YkN-2gUUmc8	Eternights - State of Play June 2022 Reveal Trailer | PS5 & PS4 Games	https://www.youtube.com/watch?v=YkN-2gUUmc8	2022-06-02 22:18:31	PlayStation
+cc479880-7eac-417f-aa20-2bdb51beba31	2022-06-09 08:55:56.932	2022-06-28 16:28:11.949	Call of Duty: Modern Warfare II	https://www.callofduty.com/modernwarfare2	2022-10-28	r72GP1PIZa0	Call of Duty: Modern Warfare II - World Gameplay Reveal Trailer	https://www.youtube.com/watch?v=r72GP1PIZa0	2022-06-08 17:00:57	Call of Duty
+02978247-aa5e-4021-9e97-12d1b07a24cc	2022-06-17 09:30:03.553	2022-06-28 16:28:11.95	CRISIS CORE –FINAL FANTASY VII– REUNION		\N	RjXBCaZexK4	CRISIS CORE -FINAL FANTASY VII- REUNION Announcement Trailer	https://www.youtube.com/watch?v=RjXBCaZexK4	2022-06-16 22:15:28	FINAL FANTASY
+29ed6ff9-653a-4cca-aa4d-b78fe0fd8985	2022-06-28 12:54:04.057	2022-06-28 16:28:11.95	S.T.A.L.K.E.R 2	https://www.stalker2.com/	\N	ZNLaKOlXVvw	S.T.A.L.K.E.R. 2: Сердце Чернобыля — Официальный геймплейный трейлер	https://www.youtube.com/watch?v=ZNLaKOlXVvw	2021-06-13 17:18:01	GSC Game World
+bb7d5bb4-10a2-4328-9558-779bcaddb827	2022-06-28 16:28:11.819	2022-06-28 16:28:11.82	Minecraft Legends	https://www.minecraft.net/about-legends	\N	1JSjZqV-YK8	Minecraft Legends – Announce Trailer	https://www.youtube.com/watch?v=1JSjZqV-YK8	2022-06-12 17:46:13	Minecraft
+fe16bc85-f506-44fd-8fa9-99bf919bacd9	2022-05-28 18:13:14.03	2022-06-28 16:28:11.898	Stray	https://stray.game/	\N	u84hRUQlaio	Stray - Teaser Trailer | PS5	https://www.youtube.com/watch?v=u84hRUQlaio	2020-06-11 20:32:30	PlayStation
+ccedb919-a463-4114-9a94-1e8491aa1db6	2022-05-29 13:36:10.929	2022-06-28 16:28:11.9	Avatar: Frontiers of Pandora	https://www.ubisoft.com/en-us/game/avatar-frontiers-of-pandora	\N	Axmg1E4HrVE	Avatar: Frontiers of Pandora – First Look Trailer	https://www.youtube.com/watch?v=Axmg1E4HrVE	2021-06-12 20:05:41	Ubisoft
+81fd3b51-ca00-411e-adcd-1e3b77cbe91b	2022-05-30 14:22:54.409	2022-06-28 16:28:11.913	Marvel's Wolverine	https://insomniac.games/game/marvels-wolverine	\N	Zcj9AzHv_l8	Marvel's Wolverine - PlayStation Showcase 2021: Announcement Teaser Trailer | PS5	https://www.youtube.com/watch?v=Zcj9AzHv_l8	2021-09-09 21:13:51	PlayStation
+0505a84b-01d7-4716-a7b2-61b70f18c033	2022-05-30 17:05:40.64	2022-06-28 16:28:11.929	Star Wars: Knights of the Old Republic Remake	https://www.aspyr.com/starwars	\N	lL-RfE-ioJ8	Star Wars: Knights of the Old Republic Remake - PlayStation Showcase 2021 Trailer | PS5	https://www.youtube.com/watch?v=lL-RfE-ioJ8	2021-09-09 20:06:31	PlayStation
+e703f552-72fb-432a-af06-7844bdf34949	2022-05-31 18:23:03.772	2022-06-28 16:28:11.937	STAR WARS Jedi: Survivor™	https://www.starwars.com/games-apps/star-wars-jedi-survivor	\N	4HLDaBGdnLc	Star Wars Jedi: Survivor - Official Teaser	https://www.youtube.com/watch?v=4HLDaBGdnLc	2022-05-27 21:02:00	EA Star Wars
+f19186ab-e0ab-4e0d-bbd0-5157cd48a497	2022-05-30 17:05:40.648	2022-06-28 16:28:11.933	F1® 22	https://www.ea.com/games/f1/f1-22	2022-07-01	K5RLRoRWUds	F1® 22 | Announce Trailer	https://www.youtube.com/watch?v=K5RLRoRWUds	2022-04-21 14:58:59	F1® Games From Codemasters
+7b58eba6-3a0c-4034-9bf2-b7016ed5338f	2022-05-31 18:23:03.772	2022-06-28 16:28:11.938	Star Wars Eclipse™	https://www.starwarseclipse.com/	\N	4cJpiOPKH14	Star Wars Eclipse – Official Cinematic Reveal Trailer	https://www.youtube.com/watch?v=4cJpiOPKH14	2021-12-10 01:19:09	Star Wars
+d87f51bd-042d-4278-997f-b9f45f28a0bf	2022-05-31 18:23:03.772	2022-06-28 16:28:11.939	Warhammer 40,000: Darktide	https://www.playdarktide.com/	2022-09-13	e-UifdRoC8I	Warhammer 40,000: Darktide - Official Gameplay Trailer	https://www.youtube.com/watch?v=e-UifdRoC8I	2020-12-11 00:34:01	Fatshark
+1c5e8059-55e2-4fba-b4d1-102f910c8bb2	2022-05-31 18:23:03.772	2022-06-28 16:28:11.94	Mario Strikers: Battle League Football	https://www.nintendo.com/store/products/mario-strikers-battle-league-switch/	2022-06-10	cLAzzYz92r4	Mario Strikers: Battle League - Announcement Trailer - Nintendo Switch	https://www.youtube.com/watch?v=cLAzzYz92r4	2022-02-09 22:08:07	Nintendo
+ce03228a-e0fb-4bf4-be33-035373d49ed0	2022-05-31 18:23:03.772	2022-06-28 16:28:11.941	Splatoon 3	https://www.nintendo.com/store/products/splatoon-3-switch/	2022-09-09	GUYDXVDLmns	Splatoon 3 - Announcement Trailer - Nintendo Switch	https://www.youtube.com/watch?v=GUYDXVDLmns	2021-02-17 22:53:53	Nintendo
+6a77c550-9a4f-409a-8865-6105e2b59379	2022-05-31 18:36:44.885	2022-06-28 16:28:11.943	Slime Rancher 2	http://slimerancher.com/	\N	ehh3m59vbA0	Slime Rancher 2 Official Announcement Trailer	https://www.youtube.com/watch?v=ehh3m59vbA0	2021-06-13 17:50:32	Monomi Park
+c764609e-f0bf-4933-8ddf-6e8e3ddeefc8	2022-06-02 18:19:15.386	2022-06-28 16:28:11.944	Madden NFL 23	https://www.ea.com/games/madden-nfl/madden-nfl-23	\N	Qv6G_w8RUOo	Madden 23 Official Reveal Trailer | Introducing FieldSENSE™	https://www.youtube.com/watch?v=Qv6G_w8RUOo	2022-06-02 13:58:24	EA SPORTS MADDEN NFL
+d53f819c-955a-4ec6-8a14-8b20b3b7d159	2022-06-02 18:54:46.529	2022-06-28 16:28:11.944	Avowed	https://avowed.obsidian.net/	\N	YS8n-pZQWWc	Avowed - Reveal Trailer	https://www.youtube.com/watch?v=YS8n-pZQWWc	2020-07-23 16:29:21	Obsidian Entertainment
+16bf2fec-627c-4a47-9c0e-06ded47b4d60	2022-06-02 20:15:23.853	2022-06-28 16:28:11.945	Perfect Dark	https://www.xbox.com/games/perfect-dark	\N	S--lFTxAVs8	Perfect Dark - Official Announce Trailer - The Game Awards 2020	https://www.youtube.com/watch?v=S--lFTxAVs8	2020-12-11 00:16:24	Xbox
+1d5f49b8-a20f-4152-970e-3bfb15afa7e7	2022-06-03 08:38:40.796	2022-06-28 16:28:11.947	Street Fighter 6	https://www.streetfighter.com/6	\N	GZud-p0QRvA	Street Fighter 6 - Announce Trailer	https://www.youtube.com/watch?v=GZud-p0QRvA	2022-06-02 22:36:01	Capcom USA
+46de8926-9640-4d42-9f40-3088a34b3fd1	2022-06-05 08:40:29.616	2022-06-28 16:28:11.948	Tom Clancy's Ghost Recon® Frontline	https://www.ubisoft.com/en-us/game/ghost-recon/frontline	\N	7NewkthNMDE	Tom Clancy's Ghost Recon Frontline: Reveal Trailer | Ubisoft [NA]	https://www.youtube.com/watch?v=7NewkthNMDE	2021-10-05 17:30:01	Ubisoft North America
+b5a112b7-b42b-4e6c-8450-0c5053e7c7a0	2022-06-17 09:25:13.189	2022-06-28 16:28:11.949	Final Fantasy VII - REBIRTH	https://www.square-enix-games.com/news/final-fantasy-vii-rebirth	\N	H_4CkyOmuuU	FINAL FANTASY VII REBIRTH – First Look Trailer	https://www.youtube.com/watch?v=H_4CkyOmuuU	2022-06-16 22:18:09	FINAL FANTASY
+841da886-5f4b-4184-aaa8-89e638159ec6	2022-06-05 09:02:03.926	2022-06-28 16:28:11.912	Marvel's Spider-Man 2	https://insomniac.games/game/marvels-spider-man-2	\N	qIQ3xNqkVC4	Marvel's Spider-Man 2 - PlayStation Showcase 2021: Reveal Trailer | PS5	https://www.youtube.com/watch?v=qIQ3xNqkVC4	2021-09-09 20:39:50	PlayStation
+74d3c228-3554-40a6-b5f8-944444ebc3ba	2022-05-30 17:05:40.642	2022-06-28 16:28:11.914	Hogwarts Legacy	https://www.hogwartslegacy.com	\N	BsC-Rl9GYy0	Hogwarts Legacy – Official 4K Reveal Trailer	https://www.youtube.com/watch?v=BsC-Rl9GYy0	2020-09-16 20:16:28	Hogwarts Legacy
+884c5d2c-c5ee-4fa2-a516-4f42fb8c9905	2022-05-30 17:05:40.64	2022-06-28 16:28:11.915	Fable	https://www.xbox.com/games/fable	\N	oVkSZXPklQ4	Fable - Official Announce Trailer	https://www.youtube.com/watch?v=oVkSZXPklQ4	2020-07-23 17:01:53	Xbox
+84683ea8-478f-48b8-8004-cece493fee98	2022-05-30 17:05:40.64	2022-06-28 16:28:11.92	ARK II	http://www.studiowildcard.com/	\N	RG2aOpCQQSA	ARK 2 Announcement Teaser	https://www.youtube.com/watch?v=RG2aOpCQQSA	2020-12-13 05:52:27	ARK: Survival Evolved
+17d98a07-34f5-4b1e-979e-1ce356994c1f	2022-05-30 17:05:40.64	2022-06-28 16:28:11.928	Final Fantasy XVI	https://finalfantasyxvi.com/	\N	yr6PtdY0i7M	Final Fantasy XVI - Awakening Trailer | PS5	https://www.youtube.com/watch?v=yr6PtdY0i7M	2020-09-16 20:13:43	PlayStation
+20d7e49e-782d-4c26-84da-77cacf63fcd6	2022-05-30 17:05:40.648	2022-06-28 16:28:11.929	Horizon Call of the Mountain	https://www.playstation.com/games/horizon-call-of-the-mountain/	\N	yPNn-jwAC9c	Horizon Call of the Mountain - Teaser Trailer	https://www.youtube.com/watch?v=yPNn-jwAC9c	2022-01-05 01:30:41	PlayStation
+d57d9e2d-c7ab-4ab1-8d59-66d3d8509a8b	2022-05-31 18:23:03.771	2022-06-28 16:28:11.941	Mario + Rabbids Sparks of Hope	https://www.ubisoft.com/en-us/game/mario-rabbids/sparks-of-hope	\N	VHIuHMv3t88	Mario + Rabbids Sparks of Hope - Cinematic World Premiere Trailer - Nintendo Switch	https://www.youtube.com/watch?v=VHIuHMv3t88	2021-06-12 20:13:07	Nintendo
+ec0eb006-91ad-4fe7-b7b7-a883136337e2	2022-05-30 17:05:40.648	2022-06-28 16:28:11.933	Dead Space Remake	https://www.ea.com/games/dead-space	2023-01-27	l5WeBNfX-og	Dead Space Official Teaser Trailer – EA Play Live 2021	https://www.youtube.com/watch?v=l5WeBNfX-og	2021-07-22 17:54:27	Dead Space
+df652a57-7728-4e08-8f6d-a44dc2fa64bf	2022-05-30 17:05:40.64	2022-06-28 16:28:11.916	Redfall	https://bethesda.net/game/redfall	\N	3pWjcqXnP2g	Redfall - Official Announce Trailer - Xbox & Bethesda Games Showcase 2021	https://www.youtube.com/watch?v=3pWjcqXnP2g	2021-06-13 18:23:53	Bethesda Softworks
+13eb9117-d884-4b07-ae5b-0987b8208202	2022-05-30 14:22:54.409	2022-06-28 16:28:11.913	God of War Ragnarök	https://playstation.com/games/god-of-war-ragnarok	\N	EE-4GvjKcfs	God Of War Ragnarok - PlayStation Showcase 2021 Reveal Trailer | PS5	https://www.youtube.com/watch?v=EE-4GvjKcfs	2021-09-09 21:08:35	PlayStation
+88deded7-0232-4819-9e39-2013dc7cc285	2022-05-30 17:05:40.64	2022-06-28 16:28:11.928	The Outer Worlds 2	https://outerworlds2.obsidian.net/	\N	AQt-NjR-a3k	The Outer Worlds 2 Announcement Teaser Trailer	https://www.youtube.com/watch?v=AQt-NjR-a3k	2021-06-13 18:04:44	Obsidian Entertainment
+74dd785f-fa76-4251-9f7a-f63d6b37e37b	2022-05-30 17:05:40.648	2022-06-28 16:28:11.93	Pragmata	https://news.capcomusa.com/2020/06/11/announcing-pragmata-a-brand-new-game-from-capcom-launching-2022/	\N	xoxCboik0Is	Pragmata - Announcement Trailer | PS5	https://www.youtube.com/watch?v=xoxCboik0Is	2020-06-11 21:40:48	PlayStation
+3e379e98-6601-4435-ab23-dcd434560c22	2022-05-31 18:23:03.772	2022-06-28 16:28:11.94	Warhammer 40,000: SPACE MARINE 2	https://www.focus-entmt.com/en/games/warhammer-40000-space-marine-2	\N	TgxVQRTXtz0	Warhammer 40,000: SPACE MARINE 2 – World Premiere Reveal | The Game Awards 2021	https://www.youtube.com/watch?v=TgxVQRTXtz0	2021-12-10 02:40:44	Focus Entertainment
+bfb21ce3-2d6d-4bae-9964-6764a2f13372	2022-05-31 18:23:03.772	2022-06-28 16:28:11.942	Suicide Squad: Kill the Justice League	https://www.suicidesquadgame.com	\N	2EVFYstVuVk	Suicide Squad: Kill the Justice League Official Teaser Trailer	https://www.youtube.com/watch?v=2EVFYstVuVk	2020-08-23 00:19:51	DC
 \.
 
 
@@ -1713,6 +1715,11 @@ fc9c1514-324d-4dcb-97dd-9ce5e242d28b	29ed6ff9-653a-4cca-aa4d-b78fe0fd8985
 76d3ae63-9919-4ad9-a6bf-440a6e4f6e1b	29ed6ff9-653a-4cca-aa4d-b78fe0fd8985
 c70ad49b-714f-40c3-a454-ba2d15d73fa1	29ed6ff9-653a-4cca-aa4d-b78fe0fd8985
 9e4aa91b-df63-46ae-a3c1-650381f91ba2	29ed6ff9-653a-4cca-aa4d-b78fe0fd8985
+deaf7d16-5018-42e5-a5ef-9f3bed0f1947	bb7d5bb4-10a2-4328-9558-779bcaddb827
+50e618ad-07ba-4de5-b04d-5511cd1fe40d	bb7d5bb4-10a2-4328-9558-779bcaddb827
+2dd8fe4e-b4fe-4827-8b71-23709ca98db9	bb7d5bb4-10a2-4328-9558-779bcaddb827
+fc9c1514-324d-4dcb-97dd-9ce5e242d28b	bb7d5bb4-10a2-4328-9558-779bcaddb827
+6ef235e2-e990-4c62-bfbb-e7d98416adf2	bb7d5bb4-10a2-4328-9558-779bcaddb827
 \.
 
 
