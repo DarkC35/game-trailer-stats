@@ -55,7 +55,7 @@ async function main(crawlOnly) {
             }
         }))
         console.log(`${returnedTrailerDtos.length} videos processed`)
-        trailerDtos.push(returnedTrailerDtos)
+        trailerDtos.push(...returnedTrailerDtos)
     }
 
     console.log(`number of returned trailers: ${trailerDtos.length}`)
