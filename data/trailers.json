@@ -11,7 +11,8 @@
             "PS4",
             "PS5"
         ],
-        "gameUrl": "https://stray.game/"
+        "gameUrl": "https://stray.game/",
+        "releaseDate": "2022-07-19"
     },
     {
         "id": "ccedb919-a463-4114-9a94-1e8491aa1db6",
@@ -35,7 +36,8 @@
             "Nintendo Exclusive",
             "Nintendo Switch"
         ],
-        "gameUrl": "https://scarletviolet.pokemon.com"
+        "gameUrl": "https://scarletviolet.pokemon.com",
+        "releaseDate": "2022-11-18"
     },
     {
         "id": "c2d2ba8e-f6dd-407b-aa1e-24bab8888098",
@@ -439,7 +441,8 @@
             "Nintendo Exclusive",
             "Nintendo Switch"
         ],
-        "gameUrl": "https://www.ubisoft.com/en-us/game/mario-rabbids/sparks-of-hope"
+        "gameUrl": "https://www.ubisoft.com/en-us/game/mario-rabbids/sparks-of-hope",
+        "releaseDate": "2022-10-20"
     },
     {
         "id": "bfb21ce3-2d6d-4bae-9964-6764a2f13372",
@@ -585,11 +588,18 @@
         "gameTitle": "The Callisto Protocol",
         "youtubeId": "WnVhgyLbC8A",
         "categories": [
+            "PC",
+            "Steam",
             "PlayStation",
             "PS4",
-            "PS5"
+            "PS5",
+            "Xbox",
+            "Xbox One",
+            "Xbox Series S",
+            "Xbox Series X"
         ],
-        "gameUrl": "https://www.callistothegame.com"
+        "gameUrl": "https://www.callistothegame.com",
+        "releaseDate": "2022-12-02"
     },
     {
         "id": "46de8926-9640-4d42-9f40-3088a34b3fd1",
