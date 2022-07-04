@@ -34,9 +34,9 @@
     "d3-array": "^3.1.6",
     "d3-scale-chromatic": "^3.0.0",
     "dotenv": "^16.0.1",
-    "next": "12.1.6",
+    "next": "^12.2.0",
     "react": "18.2.0",
-    "react-dom": "18.1.0",
+    "react-dom": "^18.2.0",
     "slugify": "^1.6.5",
     "yargs": "^17.5.1"
   },
@@ -45,15 +45,15 @@
     "@types/d3-scale-chromatic": "^3.0.0",
     "@types/node": "18.0.1",
     "@types/react": "18.0.14",
-    "@types/react-dom": "18.0.4",
+    "@types/react-dom": "^18.0.5",
     "@types/yargs": "^17.0.10",
     "autoprefixer": "^10.4.7",
-    "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6",
+    "eslint": "8.19",
+    "eslint-config-next": "^12.2.0",
     "postcss": "^8.4.14",
     "prisma": "^4.0.0",
     "tailwindcss": "^3.1.4",
     "ts-node": "^10.8.2",
-    "typescript": "4.6.4"
+    "typescript": "^4.7.4"
   }
 }
