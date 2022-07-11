@@ -13,6 +13,7 @@
     "prisma:migrate-dev": "npx prisma migrate dev",
     "prisma:migrate-reset": "npx prisma migrate reset",
     "prisma:migrate": "npx prisma migrate deploy",
+    "prepare": "docker compose down && docker compose up -d && npm run pg_restore",
     "pg_restore": "docker run --rm -v %cd%:/gts -w /gts --env-file .env --net game-trailer-stats_default --entrypoint \"\" postgres:14.3 sh -c \"psql -d postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres:5432/$POSTGRES_DB -f ./data/data.sql\"",
     "pg_dump": "docker run --rm -v %cd%:/gts -w /gts --env-file .env --net game-trailer-stats_default --entrypoint \"\" postgres:14.3 sh -c \"pg_dump postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres:5432/$POSTGRES_DB -E UTF8 -f ./data/data.sql\""
   },
