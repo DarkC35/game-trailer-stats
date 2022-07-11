@@ -18,7 +18,7 @@
     "pg_dump": "docker run --rm -v %cd%:/gts -w /gts --env-file .env --net game-trailer-stats_default --entrypoint \"\" postgres:14.3 sh -c \"pg_dump postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres:5432/$POSTGRES_DB -E UTF8 -f ./data/data.sql\""
   },
   "dependencies": {
-    "@googleapis/youtube": "^4.2.0",
+    "@googleapis/youtube": "^6.0.0",
     "@prisma/client": "^4.0.0",
     "@visx/axis": "^2.11.1",
     "@visx/event": "^2.6.0",
