@@ -61,9 +61,9 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
       - name: Upload Pages artifact # https://github.com/actions/upload-pages-artifact/blob/main/action.yml
-        uses: actions/upload-pages-artifact@v0.1.0
+        uses: actions/upload-pages-artifact@v1.0.1
         with:
           path: ./out/
       - name: Deploy to GitHub Pages # https://github.com/actions/deploy-pages
         id: deployment
-        uses: actions/deploy-pages@v1.0.5
+        uses: actions/deploy-pages@v1.0.6
