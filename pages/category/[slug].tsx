@@ -19,7 +19,7 @@ const CategoryPage = ({ trailers, category }: Props) => {
     return (
         <div className='container mx-auto'>
             <Head>
-                <title>{category?.name} Trailers</title>
+                <title>{`${category?.name} Trailers`}</title>
             </Head>
             <h1 className='text-4xl'>{category?.name}</h1>
             <Link href={'/'}>Back to Index</Link>
