@@ -771,5 +771,17 @@
         ],
         "gameUrl": "",
         "releaseDate": "2022-08-26"
+    },
+    {
+        "gameTitle": "Assassin's Creed Mirage",
+        "youtubeId": "x55lAlFtXmw",
+        "categories": [
+            "PC",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ubisoft.com/en-us/game/assassins-creed/mirage"
     }
 ]
