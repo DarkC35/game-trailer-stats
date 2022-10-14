@@ -784,5 +784,19 @@
             "Xbox Series X"
         ],
         "gameUrl": "https://www.ubisoft.com/en-us/game/assassins-creed/mirage"
+    },
+    {
+        "gameTitle": "Need for Speed Unbound",
+        "youtubeId": "H2Y8XCe7F9E",
+        "categories": [
+            "PC",
+            "Steam",
+            "Epic Games",
+            "PlayStation",
+            "PS5",
+            "Xbox",
+            "Xbox Series X"
+        ],
+        "gameUrl": "https://www.ea.com/games/need-for-speed/need-for-speed-unbound"
     }
 ]
