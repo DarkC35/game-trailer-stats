@@ -20,7 +20,7 @@
   "dependencies": {
     "@googleapis/youtube": "^6.0.0",
     "@prisma/client": "^4.2.1",
-    "@visx/axis": "^2.12.2",
+    "@visx/axis": "^2.17.0",
     "@visx/event": "^2.6.0",
     "@visx/group": "^2.10.0",
     "@visx/legend": "^2.10.0",
