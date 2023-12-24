@@ -27,8 +27,8 @@ jobs:
         image: postgres:14.3
         env:
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
-          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+          POSTGRES_USER: ${{ env.POSTGRES_USER }}
+          POSTGRES_DB: ${{ env.POSTGRES_DB }}
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -44,7 +44,7 @@ jobs:
         uses: docker://postgres:14.3
         with:
           entrypoint: psql
-          args: -d postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/${{ secrets.POSTGRES_DB }} -f ./data/data.sql
+          args: -d postgresql://${{ env.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/${{ env.POSTGRES_DB }} -f ./data/data.sql
       - uses: actions/setup-node@v3
         with:
           node-version: 16
