@@ -11,12 +11,6 @@ on:
     workflows: [Crawl]
     types: [completed]
 
-permissions:
-  contents: read
-  # these permissions are required for the action to work properly
-  pages: write
-  id-token: write
-
 jobs:
   deploy:
     if: ${{ github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' }}
@@ -24,6 +18,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    # these permissions are required for the action to work properly
+    permissions:
+      pages: write
+      id-token: write
     services:
       postgres:
         image: postgres:14.3
@@ -61,9 +59,9 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
       - name: Upload Pages artifact # https://github.com/actions/upload-pages-artifact/blob/main/action.yml
-        uses: actions/upload-pages-artifact@v1.0.3
+        uses: actions/upload-pages-artifact@v3.0.0
         with:
           path: ./out/
       - name: Deploy to GitHub Pages # https://github.com/actions/deploy-pages
         id: deployment
-        uses: actions/deploy-pages@v1.0.9
+        uses: actions/deploy-pages@v4
